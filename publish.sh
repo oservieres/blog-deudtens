@@ -9,5 +9,5 @@ if [ $? -ne 0 ]; then echo "Could not generate the site"; exit 1; fi
 
 # Add --delete right before "output_prod" to have rsync remove files that are
 # deleted locally from the destination too. See README.md for an example.
-rsync -avze 'ssh -p 4668' output_prod/ username@yoursculpinsite:public_html
+rsync -avze 'ssh -p 4668' --delete output_prod/ wp_deudtens@icarus2.deudtens.com:/home/wp_deudtens/project
 if [ $? -ne 0 ]; then echo "Could not publish the site"; exit 1; fi
