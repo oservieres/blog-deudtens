@@ -37,7 +37,7 @@
         <link rel="apple-touch-icon" sizes="2048x2048" href="{{ site.url }}/images/jackson/2048x2048.png">
 
         <link rel="stylesheet" href="{{ site.url }}/components/highlightjs/styles/github.css" />
-        <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/atom.xml" title="{{ site.title }} activity feed" />
+        <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/atom.xml" title="Flux Atom {{ site.title }}" />
         <style>
         /** quick fix because bootstrap <pre> has a background-color. */
         pre code { background-color: inherit; }
@@ -72,6 +72,10 @@
                 <div class="span4 sidebar">
                     <div class="well">
                         <h4>{{ site.title }}{% if site.subtitle %} <small>{{ site.subtitle }}</small>{% endif %}</h4>
+                    </div>
+                    <div class="well">
+                        <h4>Flux Atom</h4>
+                        <p><a href="/atom.xml">C'est par là</a></p>
                     </div>
                     <div class="well sidebar-nav">
                         <h4>Trucs</h4>
