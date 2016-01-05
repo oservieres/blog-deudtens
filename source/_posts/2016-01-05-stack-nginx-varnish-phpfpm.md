@@ -19,6 +19,10 @@ Mes outils :
 
 Bon, le besoin de cache est overkill pour mon projet, pour l'instant. Je fais tout ça pour m'amuser surtout.
 
+Prenons notre souffle avec une photo de chaton avant d'enchainer les horribles fichiers de configuration :
+
+![](/images/kitten_1.png){.img-responsive}
+
 La chaîne va ressembler à ça :
 ```
 Browser -> Nginx (HTTP2 + SSL) -> Varnish (cache HTTP) -> Nginx (fichiers statiques et interfaçage avec PHP) -> PHP-FPM
