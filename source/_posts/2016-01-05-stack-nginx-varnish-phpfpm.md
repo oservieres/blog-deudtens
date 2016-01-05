@@ -63,8 +63,7 @@ Avec ce paté, le site est accessible sur le serveur sur le port 6969
 
 ## Varnish
 
-Mettons maintenant du cache devant cette application. Le fichier suivant a été beaucoup pompé sur le net, principalement sur la doc de Sonata. Mon projet est en cours de développement, je n'ai donc pas passé beaucoup de temps à le fine-tuner.
-Ainsi, je décline tout responsabilité sur les potentielles conneries écrites dans ce fichier : le but de l'article est de déplier toute la stack et de voir comment relier les différents composants. Les détails de configuration de varnish, je ne me suis pas encore penché dessus.
+Mettons maintenant du cache devant cette application. Le fichier suivant est fortement tronqué par rapport à mon fichier de configuration réel. Il fait juste en sorte que ça marche à peu près. Je ne veux pas prendre la responsabilité de mettre un fichier de configuration varnish que je n'ai pas encore fine-tuné et qui peut contenir des erreurs. Le but de l'article est surtout de voir comment coller les différents composants entre eux.
 
 ```
 vcl 4.0;
@@ -76,170 +75,6 @@ backend default {
     .first_byte_timeout = 600s;
     .between_bytes_timeout = 600s;
     .max_connections = 250;
-}
-
-acl purge {
-        "localhost";
-}
-
-#
-# RECEIVE REQUEST FROM THE CLIENT
-#
-sub vcl_recv {
-
-    set req.http.X-Forwarded-Port = "443";
-    // Remove all cookies except the session ID.
-    if (req.http.Cookie) {
-        set req.http.Cookie = ";" + req.http.Cookie;
-        set req.http.Cookie = regsuball(req.http.Cookie, "; +", ";");
-        set req.http.Cookie = regsuball(req.http.Cookie, ";(PHPSESSID)=", "; \1=");
-        set req.http.Cookie = regsuball(req.http.Cookie, ";[^ ][^;]*", "");
-        set req.http.Cookie = regsuball(req.http.Cookie, "^[; ]+|[; ]+$", "");
-
-        if (req.http.Cookie == "") {
-            // If there are no more cookies, remove the header to get page cached.
-            unset req.http.Cookie;
-        }
-    }
-
-    if (req.method == "PURGE") {
-        if (!client.ip ~ purge) {
-            return(synth(405,"Not allowed."));
-        }
-        return (purge);
-    }
-
-    unset req.http.X-Forwarded-For;
-    set req.http.X-Forwarded-For = client.ip;
-
-    # Force lookup if the request is a no-cache request from the client
-    if (req.http.Cache-Control ~ "no-cache") {
-        return (pass);
-    }
-
-    if (req.http.Cookie) {
-        # removes all cookies named __utm? (utma, utmb...) - tracking thing
-        set req.http.Cookie = regsuball(req.http.Cookie, "(^|; ) *__utm.=[^;]+;? *", "\1");
-
-        if (req.http.Cookie == "") {
-            unset req.http.Cookie;
-        }
-    }
-
-    ## Default request checks
-    if (req.method != "GET" &&
-        req.method != "HEAD" &&
-        req.method != "PUT" &&
-        req.method != "POST" &&
-        req.method != "TRACE" &&
-        req.method != "OPTIONS" &&
-        req.method != "DELETE") {
-            # Non-RFC2616 or CONNECT which is weird.
-            return (pipe);
-    }
-
-    if (req.method != "GET" && req.method != "HEAD") {
-        # We only deal with GET and HEAD by default
-        return (pass);
-    }
-
-   ## Modified from default to allow caching if cookies are set, but not http auth
-    if (req.http.Authorization) {
-        /* Not cacheable by default */
-        return (pass);
-    }
-
-    # Don't cache user/application area
-    if (req.url ~ "(^/app.php|^/app_dev.php|^)/([a-z]{2})/(payment|order|booking|media|autocomplete|monitor).*") {
-        return (pass);
-    }
-
-    # Don't cache admin area
-    if (req.url ~ "(^/app.php|^/app_dev.php|^)/admin" || req.url ~ "(^/app.php|^/app_dev.php|^)/(([a-z]{2})/admin)") {
-        return (pass);
-    }
-
-    # Don't cache security area
-    if (req.url ~ "(^/app.php|^/app_dev.php|^)/(([a-z]{2}/|)(login|logout|login_check).*)") {
-        return (pass);
-    }
-
-    ## Don't cache editor logged-in user sessions
-    if (req.http.Cookie ~ "(sonata_page_is_editor)") {
-        return (pass);
-    }
-
-    return (hash);
-}
-
-
-#
-# RECEIVE RESPONSE FROM THE APPLICATION
-#
-sub vcl_backend_response
-{
-    # These status codes should always pass through and never cache.
-    if (beresp.status == 404) {
-        set beresp.http.X-Cache-Rule = "YES: but for 1m - beresp.status : " + beresp.status;
-        set beresp.ttl = 1m;
-
-        return (deliver);
-    }
-
-    if (beresp.status == 503 || beresp.status == 500) {
-        set beresp.http.X-Cache-Rule = "NOT: beresp.status : " + beresp.status;
-        set beresp.ttl = 0s;
-        set beresp.uncacheable = true;
-
-        return (deliver);
-    }
-
-    # Force the cache for the home
-    if (bereq.url ~ "(^/app.php|^/app_dev.php|^)/([a-z]{2})(|/)$") {
-        set beresp.ttl = 1m;
-    }
-
-    if (bereq.url ~ "\.(jpg|jpeg|gif|png|ico|css|zip|tgz|gz|rar|bz2|pdf|txt|tar|wav|bmp|rtf|js|flv|swf|html|htm|mov|avi|mp3|mpg)$") {
-        unset beresp.http.set-cookie;
-        set beresp.http.X-Cache-Rule = "YES: static files";
-        set beresp.ttl = 24h;
-    }
-
-    #if (obj.http.Set-Cookie) {
-    #    set obj.http.X-Cache-Rule = "NO: !obj.Set-Cookie";
-    #    return (hit_for_pass);
-    #}
-
-    # No cache for Sonata Editor
-    if (bereq.http.Cookie ~ "sonata_page_is_editor") {
-        set beresp.ttl = 0s;
-        set beresp.http.X-Cache-Rule = "NO: user has ROLE_SONATA_PAGE_ADMIN_PAGE_EDIT";
-    }
-
-    if (!beresp.ttl > 0s) {
-        set beresp.http.X-Cache-Rule = "NO: beresp.ttl == 0";
-        set beresp.uncacheable = true;
-        return (deliver);
-    }
-
-    # All tests passed, therefore item is cacheable
-    set beresp.http.X-Cache-Rule = "YES with ttl: " + beresp.ttl;
-
-    # remove cookies for cached response
-    unset beresp.http.set-cookie;
-
-    return (deliver);
-}
-
-sub vcl_deliver {
-    # add cache hit data
-    if (obj.hits > 0) {
-        # if hit add hit count
-        set resp.http.X-Cache = "HIT";
-        set resp.http.X-Cache-Hits = obj.hits;
-    } else {
-        set resp.http.X-Cache = "MISS";
-    }
 }
 
 ```
@@ -262,13 +97,13 @@ server {
     include common/ssl.conf;
 
     location / {
-      proxy_http_version 1.1; # Important : sinon, nginx cause en http 1.0 avec varnish, et ça chie dans la colle
-      proxy_pass http://127.0.0.1:6081; # Le port de varnish. Adapter au besoin. Voir /etc/default/varnish
-      proxy_set_header X-Real-IP  $remote_addr;
-      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-      proxy_set_header X-Forwarded-Proto https;
-      proxy_set_header X-Forwarded-Port 443;
-      proxy_set_header Host $host;
+        proxy_http_version 1.1; # Important : sinon, nginx cause en http 1.0 avec varnish, et ça chie dans la colle
+        proxy_pass http://127.0.0.1:6081; # Le port de varnish. Adapter au besoin. Voir /etc/default/varnish
+        proxy_set_header X-Real-IP  $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-Port 443;
+        proxy_set_header Host $host;
     }
 
     error_log /var/log/nginx/NOM_DU_PROJET_ssl_error.log;
@@ -292,3 +127,21 @@ add_header Strict-Transport-Security "max-age=31536000; includeSubdomains;";
 ```
 
 J'ai volontairement isolé la configuration ssl dans un fichier commun pour la réutiliser à l'identique sur d'autres sites : j'utilise du SNI avec nginx pour avoir plusieurs sites en https sur la même IP.
+
+## Nginx (redirection HTTP -> HTTPS)
+
+Un petit serveur en plus pour gérer les redirections :
+
+```
+server {
+    listen         80;
+    server_name URL_DU_SITE.com;
+    return 307 https://$host$request_uri;
+
+    error_log /var/log/nginx/NOM_DU_PROJET_redirection_error.log;
+    access_log /var/log/nginx/NOM_DU_PROJET_redirection_access.log;
+}
+
+```
+
+Prochaine étape : benchmarker un peu tout ça en trifouillant les différents paramètres, surtout au niveau de la compression, laissée de côté pour l'instant.
