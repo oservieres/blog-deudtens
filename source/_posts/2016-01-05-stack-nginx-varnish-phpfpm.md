@@ -144,4 +144,6 @@ server {
 
 ```
 
+J'ai choisi de faire une redirection 307 pour rediriger à l'identique les requêtes POST... je pourrais changer d'avis là dessus, je sais pas trop.
+
 Prochaine étape : benchmarker un peu tout ça en trifouillant les différents paramètres, surtout au niveau de la compression, laissée de côté pour l'instant.
