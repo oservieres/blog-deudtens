@@ -21,7 +21,7 @@ Bon, le besoin de cache est overkill pour mon projet, pour l'instant. Je fais to
 
 Prenons notre souffle avec une photo de chaton avant d'enchainer les horribles fichiers de configuration :
 
-![](/images/kitten_1.png){.img-responsive}
+![](/images/kitten_1.jpg){.img-responsive}
 
 La chaîne va ressembler à ça :
 ```
@@ -134,7 +134,7 @@ Un petit serveur en plus pour gérer les redirections :
 
 ```
 server {
-    listen         80;
+    listen 80;
     server_name URL_DU_SITE.com;
     return 307 https://$host$request_uri;
 
