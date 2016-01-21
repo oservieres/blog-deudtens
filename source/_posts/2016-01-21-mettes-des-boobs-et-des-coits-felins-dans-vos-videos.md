@@ -25,4 +25,4 @@ Pour voir le film, c'est [par là](https://www.youtube.com/watch?v=rSgwsEeqEIU).
 
 [![](/images/db_stats.jpg){.img-responsive}](/images/db_stats.jpg)
 
-On observe une haute de l'attention des spectateurs sur environ 15 secondes. Comme par hasard, c'est le moment le plus chaud du film qui combine boule géante, bagnole, explosion, ralenti... et décolleté.
+On observe une hausse de l'attention des spectateurs sur environ 15 secondes. Comme par hasard, c'est le moment le plus chaud du film qui combine boule géante, bagnole, explosion, ralenti... et décolleté.
