@@ -1,10 +1,9 @@
 ---
 title: La documentation technique : redigée en anglais seulement
 categories:
-    - Dev
 tags:
-    - Documentation
-    - Anglais
+    - Dev
+    - Savoir vivre de dev
 
 ---
 La documentation en français me fait souffrir.

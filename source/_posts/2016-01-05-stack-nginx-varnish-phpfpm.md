@@ -1,6 +1,6 @@
 ---
 title: Une stack Nginx/Varnish/PHP-FPM pour avoir du http2 et du cache
-categories:
+tags:
     - Dev
 
 ---

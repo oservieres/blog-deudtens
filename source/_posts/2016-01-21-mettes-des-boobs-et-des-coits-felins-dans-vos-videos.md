@@ -1,6 +1,6 @@
 ---
 title: Analyse scientifique de statistiques de vidéos Youtube
-categories:
+tags:
     - Vidéo
 
 ---

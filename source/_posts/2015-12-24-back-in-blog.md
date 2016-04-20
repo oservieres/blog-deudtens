@@ -1,6 +1,6 @@
 ---
 title: Back in blog
-categories:
+tags:
     - Vie du blog
 
 ---
