@@ -15,7 +15,7 @@ use:
         <div>
             {% if '<!--more-->' in post.blocks.content %}
                 {{ post.blocks.content | split('<!--more-->') | first | raw }}
-                <p class="continue"><a href='{​{ post.url }​}'>Lire la suite</a></p>
+                <p class="continue"><a href='{{ post.url }}'>Lire la suite</a></p>
             {% else %}
                 {{ post.blocks.content | raw }}
             {% endif %}
