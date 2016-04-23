@@ -8,7 +8,7 @@ tags:
 ---
 La documentation en français me fait souffrir.
 
-*NB : cet article a été écrit juste avant un crash du site. Et puis avant le backup aussi tant qu'à faire. Je l'ai réécrit de tête.*
+<!--more-->
 
 Dans chaque boite que j'ai faite, j'ai tout le temps rencontré la situation embarassante où l'on devait envoyer une documentation interne rédigée en français à un prestataire/client/partenaire ne parlant pas la langue.
 

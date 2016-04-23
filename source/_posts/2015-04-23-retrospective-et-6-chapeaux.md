@@ -9,6 +9,8 @@ Petit article sur deux choses que j’aime, mais dont je n’aime pas le mélang
 
 ![](/images/retrospective-cat.jpg){.img-responsive}
 
+<!--more-->
+
 ##Les 6 chapeaux
 [Plein](http://www.qualitystreet.fr/2012/09/20/des-chapeaux-pour-ma-crea-des-chapeaux-pour-ma-retro/) [d'articles](http://fr.slideshare.net/AdamaCoulibaly1/les-six-chapeaux-de-la-rflexion-du-dr-dedward-de-bono) [expliquent](http://www.creativitequebec.ca/Techniques_chapeaux_Bono.html) [déjà](http://www.ithaquecoaching.com/articles/creativite-les-6-chapeaux-de-de-bono-version-individuelle-95.html) [ce](http://www.kstoolkit.org/Six+chapeaux+pour+penser) [que](http://anti-deprime.com/2014/08/09/les-6-chapeaux-reflexion-methode-ideale-decider-creer/) [c’est](http://fr.ekopedia.org/M%C3%A9thode_des_six_chapeaux). Je ne vais pas dupliquer ça ici. Je trouve juste un peu dommage que ces articles se bornent à l’énumération des chapeaux sans parler un minimum de comment les agencer.
 

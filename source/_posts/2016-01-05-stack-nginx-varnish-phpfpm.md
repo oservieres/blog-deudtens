@@ -19,6 +19,8 @@ Mes outils :
 
 Bon, le besoin de cache est overkill pour mon projet, pour l'instant. Je fais tout ça pour m'amuser surtout.
 
+<!--more-->
+
 Prenons notre souffle avec une photo de chaton avant d'enchainer les horribles fichiers de configuration :
 
 ![](/images/kitten_1.jpg){.img-responsive}

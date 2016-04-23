@@ -7,6 +7,8 @@ tags:
 
 J'ai réalisé 2 courts-métrages qui trainent sur Youtube. Et j'ai été pris de fascination pour les statistiques de Youtube Analytics.
 
+<!--more-->
+
 ### Hashtag Chaton : boobs & kittens
 
 Je vous recommande de voir le film [ici](https://www.youtube.com/watch?v=76hrIcBuK18) pour comprendre de quoi je parle, et pour gonfler mon nombre de vues, merci. Mon article se concentre sur la vue "Fidélisation de l'audience". Elle montre une courbe représentant l'audience de la vidéo au fur et à mesure qu'elle avance : la courbe commence à 100%, et tombe au fur et à mesure que les visionneurs s'en vont. Elle peut aussi remonter, voir dépasser les 100% si des personnes revoient certains passages de la vidéo.

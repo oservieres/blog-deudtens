@@ -8,10 +8,7 @@ J’entends toujours dire que les professeurs d’université demandent à leurs
 
 ![](/images/internship.jpg){.img-responsive}
 
-Passer au contenu
-dans Tech
-« Un stage avec un vrai projet »
-J’entends toujours dire que les professeurs d’université demandent à leurs étudiants de trouver des stages proposant des « vrais projets de fond avec une vision globale » plutôt que des stages au cours desquels « ils vont remplir tout un tas de petites tâches ingrates ». L’idée est de savoir ce que l’élève va faire à l’avance afin de s’assurer qu’il ne va pas préparer le café. L’intention est bonne, mais je trouve qu’elle est inutile et qu’elle produit des effets pervers.
+<!--more-->
 
 J’ai été témoin d’élèves participants à des stages portant sur un gros « projet de A à Z » bien défini (validés les yeux fermés par les professeurs), mais d’un intérêt qui me semble assez limité : de la saisie de documents HTML à la main, sur des centaines de pages, pendant 2 mois. Je ne me souviens plus du but final, juste du fait qu’il y avait assez de contraintes à la con pour empêcher une quelconque automatisation. Bref, un stage rentrant dans les critères de l’école, mais chiant comme la mort.
 

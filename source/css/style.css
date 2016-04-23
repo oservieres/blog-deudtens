@@ -26,3 +26,13 @@ footer.container {
         padding-bottom: 40px;
     }
 }
+
+p.continue {
+    text-align: right;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+article {
+    margin-top: 3em;
+}

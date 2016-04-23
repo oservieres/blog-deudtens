@@ -8,6 +8,8 @@ Grâce à un truc que je viens de découvrir en lisant [La Méthode des Six Chap
 
 ![](/images/po.jpg){.img-responsive}
 
+<!--more-->
+
 « Po » pour « Provocation Operation ». A prononcer avec l’accent anglais je pense, sinon, en français, au mieux ça n’a aucun sens, au pire on dirait un clip de Mylène Farmer.
 
 Bref.
