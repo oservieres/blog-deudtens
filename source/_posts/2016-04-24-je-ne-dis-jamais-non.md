@@ -12,7 +12,7 @@ Je parle de dire non dans le cadre professionnel, hein !
 
 ## Story of my life
 
-Entant que développeur, je suis souvent mené à rechigner à faire ce qu'on me demande. Exemples :
+En tant que développeur, je suis souvent mené à rechigner à faire ce qu'on me demande. Exemples :
 
 * on me demande de développer une feature très compliquée, pas [KISS](http://agileandfamily.blogspot.fr/2012/05/keep-it-simple-stupid.html) ;
 * on m'interrompt pendant une tâche importante pour me demander de traiter en urgence une autre tâche (important aussi ou bien dont je n'ai rien à foutre) ;
