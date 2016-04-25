@@ -21,7 +21,7 @@ En tant que développeur, je suis souvent mené à rechigner à faire ce qu'on m
 
 Au fil du temps, ma réaction par rapport à ce genre de cas a évolué.
 
-Quand j'étais en tout début de carrière, n'ayant aucune personnalité, je disais oui à tout sans jamais rien questionner. Je fonçais, je faisais tout, et je rattrapais mon retard sur mon temps libre. Entant que gros bébé, je n'avais pas encore la culture et le recul nécessaire pour juger de la pertinence d'une demande. Et même quand j'étais sceptique, mon manque d'assurance me faisait penser que je devais rater quelque chose. Effet pervers : dire oui à tout sans questionnement faisait augmenter exponentiellement les demandes à la con.
+Quand j'étais en tout début de carrière, n'ayant aucune personnalité, je disais oui à tout sans jamais rien questionner. Je fonçais, je faisais tout, et je rattrapais mon retard sur mon temps libre. En tant que gros bébé, je n'avais pas encore la culture et le recul nécessaire pour juger de la pertinence d'une demande. Et même quand j'étais sceptique, mon manque d'assurance me faisait penser que je devais rater quelque chose. Effet pervers : dire oui à tout sans questionnement faisait augmenter exponentiellement les demandes à la con.
 
 ![](/images/no-idea-what-im-doing.jpg){.img-responsive}
 
