@@ -41,15 +41,15 @@ Je me suis mis à dire "non" fermement. Mais cela ne me satisfaisait pas :
 
 J'ai depuis quelques années trouvé la solution qui me convient personnellement : je ne dis jamais "non" à une demande. Je dis que c'est possible, je donne le coût, je donne les implications, et je donne une alternative. Et je laisse décider. Systématiquement. Même pour la demande la plus débile qui me fout la rage de feu intérieure.
 
-Le plus important au nivau de la forme est de ne pas montrer de négativité dans ma réaction : le fonctionnel qui vient me voir avec son besoin a un problème à régler, et il est convaincu de l'intérêt de ce qu'il demande. Si je commence directement par faire la tronche, dire que ce n'est pas possible, dire que c'est une idée de merde, je braque mon interlocuteur. Et ça ne va pas m'aider à discuter ni à le convaincre.
+Le plus important au niveau de la forme est de ne pas montrer de négativité dans ma réaction : le fonctionnel qui vient me voir avec son besoin a un problème à régler, et il est convaincu de l'intérêt de ce qu'il demande. Si je commence directement par faire la tronche, dire que ce n'est pas possible, dire que c'est une idée de merde, je braque mon interlocuteur. Et ça ne va pas m'aider à discuter ni à le convaincre.
 
-J'annonce avec le sourire que j'y réfléchis. Je prends quelques secondes pour penser le problème à haute voix. Si je réponds du tac au tac que non, je ne veux pas faire cet affichage spécifique pour ce client car ça m'ajotue d ela dette pour un truc inutile, mon interlocuteur entend "tu me fais chier, j'ai pas envie d'écouter ton idée de merde". En montrant de l'intérêt pour le besoin de la personne, je deviens sympa, et je trouve ça super important, d'être sympa.
+J'annonce avec le sourire que j'y réfléchis. Je prends quelques secondes pour penser le problème à haute voix. Si je réponds du tac au tac que non, je ne veux pas faire cet affichage spécifique pour ce client car ça m'ajoute de la dette pour un truc inutile, mon interlocuteur entend "tu me fais chier, j'ai pas envie d'écouter ton idée de merde". En montrant de l'intérêt pour le besoin de la personne, je deviens sympa, et je trouve ça super important, d'être sympa.
 
 ![](/images/grosbisou.jpg){.img-responsive}
 
 L'autre intérêt de se forcer à réfléchir à un besoin débile, c'est que ça permet... d'y réfléchir vraiment. Et je ne compte plus les fois où je me suis ravisé intérieurement sur la pertinence d'une demande. Cela permet aussi d'identifier les très fréquents <a href="http://xyproblem.info/">XY problems</a>.
 
-Petite disgression sur la sympathie : je fais tout pour être gentil. Les développeurs très forts mais qui se comportent comme des cons, il ont tendance à être attendus au tourant, et le jour où ils ont une baisse de régime/efficacité, il deviennent juste cons.
+Petite disgression sur la sympathie : je fais tout pour être gentil. Les développeurs très forts mais qui se comportent comme des cons, il ont tendance à être attendus au tournant, et le jour où ils ont une baisse de régime/efficacité, il deviennent juste cons.
 
 ## Chiffrer pour effrayer
 
