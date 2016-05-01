@@ -21,7 +21,7 @@ Premier exemple concret : internationaliser un site web existant. J'ai vécu ce 
 * Mêmes questions pour les taxes/TVA. En plus, certains pays en appliquent plusieurs, non ?
 * Est-ce qu'on utilise un compte en banque spécifique à chaque pays ?
 * Est-ce qu'on cloisonne les clients/utilisateurs par pays ?
-* Un utilisateur peut-il changer de pays ? 
+* Un utilisateur peut-il changer de pays ?
 * Est-ce qu'un utilisateur du site français peut fournir une adresse de domicile dans un autre pays ?
 * Que veut-on comme noms de domaines et routes ? Un nom de domaine par pays ? Une locale en préfixe de chaque route ? Est-ce qu'on traduit les routes ?
 * Dans quelle devise envoie-t-on nos rapports de ventes à nos partenaires/fournisseurs ?
@@ -49,14 +49,18 @@ On ne sait pas trop où viser ? Et bien on va essayer un truc, le déployer rapi
 
 Généralement, on a beau discuter d'un besoin avec un fonctionnel, au bout de quelques dizaines de minutes de dialogue, tout est devenu trop abstrait pour qu'on se comprenne. Le développeur a le code en tête, il voit exactement ce qu'il peut faire. Mais le fonctionnel est dans le flou total (sans forcément s'en rendre compte). Le fait de **faire un truc**, aussi petit soit-il, permet de montrer quelque chose au fonctionnel de tangible, pour qu'il prenne ses repères et qu'il visualise mieux une problématique afin de définir la prochaine étape.
 
-Ainsi, on procède par petites étapes, on essaie différentes choses, on tatonne. Parfois on fait fausse route, on doit reculer et retirer du code. Deuxième étape de la démoralisation du développeur : modifier/virer des trucs qu'il vient de faire. Personnellement, [je m'en cague](http://www.dico2rue.com/dictionnaire/mot/25/s-en-caguer). Je suis payé pour faire tout ça, et il est convenu avec le fonctionnel que l'on avance ainsi. C'est le jeu.
+Tout mon article peut se résumer par cette magnifique vidéo :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZXsQAXx_ao0" frameborder="0" allowfullscreen></iframe>
+
+Ainsi, on procède par petites étapes, on essaie différentes choses, on tatonne. Parfois on fait fausse route, on doit reculer et retirer du code. Deuxième étape de la démoralisation du développeur : modifier/virer des trucs qu'il vient de faire. Personnellement, je m'en bats les steacks. Je suis payé pour faire tout ça, et il est convenu avec le fonctionnel que l'on avance ainsi. C'est le jeu.
 
 Là ou ça devient un poil lourd, c'est quand il faut modifier la base de données. Du code, ça s'ajoute et se retire à volonté sans problème. La base de données par contre, elle se manipule avec précaution. Il faut utiliser un système de migrations robuste, et tenir compte de toutes ces difficultés :
 * Modifier une grosse table, ça la vérouille et rend donc le site potentiellement indisponible pendant plusieurs secondes/minutes.
 * Pour renommer un champ en toute sécurité, il vaut mieux parfois en créer une copie à côté et effacer l'ancien plusieurs heures après.
 * Dès qu'on joue beaucoup avec les migrations, il devient difficile de travailler à plusieurs en parallèle sur le projet sans avoir de collisions.
 
-Diificile sous ces conditions d'y aller totalement en mode YOLO et tenter des trucs à foison.
+Difficile sous ces conditions d'y aller totalement en mode YOLO et tenter des trucs à foison.
 
 #Pimp my site
 
