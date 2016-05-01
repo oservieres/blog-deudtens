@@ -41,21 +41,38 @@ Bref, le développeur est  livré à lui même concernant deux petits tiers (qu'
 
 Pour moi la solution réside dans l'usage de ces trois trucs :
 
-* l'agilité
-* le déploiement continu
-* le feature toggle
+* l'agilité, pour avancer par itérations et réajuste la cible au fur et à mesure ;
+* le déploiement continu, pour déployer vite, rapidement et sans stress ;
+* le feature toggle, pour déployer des trucs pas finis en limitant leur visibilité par les clients.
 
 On ne sait pas trop où viser ? Et bien on va essayer un truc, le déployer rapidement , analyser, corriger le tir, et recommencer. On retrouve très vaguement le principe du [Lean](http://www.infoq.com/fr/presentations/lean-startup-autour-petite-mousse).
 
 Généralement, on a beau discuter d'un besoin avec un fonctionnel, au bout de quelques dizaines de minutes de dialogue, tout est devenu trop abstrait pour qu'on se comprenne. Le développeur a le code en tête, il voit exactement ce qu'il peut faire. Mais le fonctionnel est dans le flou total (sans forcément s'en rendre compte). Le fait de **faire un truc**, aussi petit soit-il, permet de montrer quelque chose au fonctionnel de tangible, pour qu'il prenne ses repères et qu'il visualise mieux une problématique afin de définir la prochaine étape.
 
-Ainsi, on procède par petites étapes, on essaie différentes choses, on tatonne. Parfois on fait fausse route, on doit reculer et retirer du code. Deuxième étape de la démoralisation du développeur : modifier/virer des trucs qu'il vient de faire. Personnellement, je m'en bats les steacks. Je suis payé pour faire tout ça, et il est convenu avec le fonctionnel que l'on avance ainsi. C'est le jeu.
+Ainsi, on procède par petites étapes, on essaie différentes choses, on tatonne. Parfois on fait fausse route, on doit reculer et retirer du code. Deuxième étape de la démoralisation du développeur : modifier/virer des trucs qu'il vient de faire. Personnellement, [je m'en cague](http://www.dico2rue.com/dictionnaire/mot/25/s-en-caguer). Je suis payé pour faire tout ça, et il est convenu avec le fonctionnel que l'on avance ainsi. C'est le jeu.
 
 Là ou ça devient un poil lourd, c'est quand il faut modifier la base de données. Du code, ça s'ajoute et se retire à volonté sans problème. La base de données par contre, elle se manipule avec précaution. Il faut utiliser un système de migrations robuste, et tenir compte de toutes ces difficultés :
 * Modifier une grosse table, ça la vérouille et rend donc le site potentiellement indisponible pendant plusieurs secondes/minutes.
 * Pour renommer un champ en toute sécurité, il vaut mieux parfois en créer une copie à côté et effacer l'ancien plusieurs heures après.
 * Dès qu'on joue beaucoup avec les migrations, il devient difficile de travailler à plusieurs en parallèle sur le projet sans avoir de collisions.
 
+Diificile sous ces conditions d'y aller totalement en mode YOLO et tenter des trucs à foison.
+
 #Pimp my site
 
-Second exemple : le site corpo d'une société éditrice. C'est généralement très vieux et moche.
+Second exemple : le site corpo d'une société éditrice. C'est généralement très vieux et moche. On se dit constamment qu'on devrait l'améliorer mais ce n'est jamais prioritaire, ça passe toujours après des développements qui ont une valeur à court terme. Et puis surtout, on ne sait pas ce qu'on veut. On veut un truc plus joli, voilà.
+
+J'ai déjà vécu une situation dans laquelle le développement du site était en situation d'interblocage. Plusieurs personnes étaient motivées pour travailler dessus en donnant un peu de leur temps libre, mais chacun attendait de l'input des autres. En schématisant un peu, ça donnait ça :
+
+* on voulait acheter un thème wordpress tout fait mais on attendait de savoir quel contenu mettre pour orienter le choix ;
+* on voulait produire du contenu mais on mettait des plombes à formuler la moindre phrase et on attendait d'avoir une idée de ce que les développeurs pouvaient fournir comme mise en page ;
+* les développeurs attendaient que le choix du thème soit fait pour donner leur avis sur les possibilités de mise en page des articles.
+
+Au final, on est sorti de ce cercle vicieux en prenant deux décisions :
+
+* quelqu'un écrit très rapidement les grandes lignes du contenu qu'il faut mettre, classé par pages ;
+* on balance ce contenu sur un wordpress tout frais avec le thème de base (twentysixteen pour l'occasion).
+
+A partir de là, on a pu partir sur des itérations. Rien que le fait de voir un site utilisable a permis aux fonctionnels de faire avancer leur réflexion sur le contenu et comment l'organiser. Même chose pour le visuel : le fait de montrer un résultat moche stimule l'envie de nous donner des directives.
+
+En l'ocurrence, nous avons demandé "donnez nous l'adresse d'un site qui vous plait et auquel vous voudriez ressembler". 2 jours après avoir modifié le design en accord avec la réponse, on nous fournissait un autre site de référence qui n'avait rien à voir. Tout détruire pour tout recommencer. Ca fait mal au début, mais on s'y fait.
