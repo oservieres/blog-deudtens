@@ -11,6 +11,8 @@ Explication pour les profanes : normalement, quand on demande à une développeu
 
 Quand je n'arrive pas à obtenir de specs pour un développement que je dois réaliser, je suis heureux : ça veut dire que je peux faire ce que je veux !
 
+#Need zo no, to win, again, ze no
+
 Premier exemple concret : internationaliser un site web existant. J'ai vécu ce besoin trois fois. A chaque fois, les mêmes questions reviennent :
 
 * Dans quels pays veut-on apparaitre pour commencer ? Et ensuite ?
@@ -54,3 +56,6 @@ Là ou ça devient un poil lourd, c'est quand il faut modifier la base de donné
 * Pour renommer un champ en toute sécurité, il vaut mieux parfois en créer une copie à côté et effacer l'ancien plusieurs heures après.
 * Dès qu'on joue beaucoup avec les migrations, il devient difficile de travailler à plusieurs en parallèle sur le projet sans avoir de collisions.
 
+#Pimp my site
+
+Second exemple : le site corpo d'une société éditrice. C'est généralement très vieux et moche.
