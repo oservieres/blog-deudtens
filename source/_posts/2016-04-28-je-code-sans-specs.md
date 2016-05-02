@@ -1,5 +1,5 @@
 ---
-title: J'adore coder sans specifications
+title: J'adore coder sans spécifications
 tags:
     - Savoir vivre de dev
 
@@ -74,7 +74,9 @@ Difficile sous ces conditions d'y aller totalement en mode YOLO et tenter des tr
 
 Second exemple : le site corpo d'une société éditrice. C'est généralement très vieux et moche. On se dit constamment qu'on devrait l'améliorer mais ce n'est jamais prioritaire, ça passe toujours après des développements qui ont une valeur à court terme. Et puis surtout, on ne sait pas ce qu'on veut. On veut un truc plus joli, voilà.
 
-J'ai déjà vécu un un moment d'interblocage. Plusieurs personnes étaient motivées pour travailler sur le site en donnant un peu de leur temps libre, mais chacun attendait de l'input des autres. En schématisant un peu, ça donnait ça :
+Avertissement : je n'ai jamais bossé en agence web. Ce qui va suivre va peut-être en défriser certains.
+
+J'ai déjà vécu un un moment d'interblocage. Plusieurs personnes étaient motivées pour travailler sur le nouveau site corpo en donnant un peu de leur temps libre, mais chacun attendait de l'input des autres. En schématisant un peu, ça donnait ça :
 
 * on voulait acheter un thème wordpress tout fait mais on attendait de savoir quel contenu mettre pour orienter le choix ;
 * on voulait produire du contenu mais on mettait des plombes à formuler la moindre phrase et on attendait d'avoir une idée de ce que les développeurs pouvaient fournir comme mise en page ;
@@ -96,3 +98,7 @@ Nous avons demandé aux fonctionnels "donnez nous l'adresse d'un site qui vous p
 Enfin, il faut forcer à mettre en production. Sinon, ça n'arrive jamais. Il y a toujours quelque chose à finir. J'ai personnellement joué le névrotique en menaçant régulièrement de mettre le site en production à tout moment en demandant "j'ai le doigt sur la détente là, dites moi ce qui vous choque vraiment pour que je n'appuie pas, car ça va péter, ça vient !". C'est ma façon diplomate de demander aux gens de dissocier leurs besoins impératifs de ceux qui relèvent de la zone de confort, qui peuvent être traités après mise en production.
 
 Je n'ai pas assisté à la phase finale de la MEP : fidèle à mon habitude depuis 2 ans, je prends mes congés pile au moment où l'on déploie. Pur hasard. A moins que mes collègues attendent que je m'en aille pour faire les choses importantes.
+
+# Conclusion
+
+Coder sans specs ne me met pas de mauvaise humeur. Au moment où ça commence à m'énerver, je me rappelle que je continue à faire mon job normallement, que je continue à faire avancer ma boite, et que je reste payé pour ça. Comme dans un précédent article, [je me résigne tranquillement](/je-ne-dis-jamais-non#se-r%C3%A9signer).
