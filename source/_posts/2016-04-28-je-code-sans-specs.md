@@ -5,13 +5,15 @@ tags:
 
 ---
 
-Explication pour les profanes : normalement, quand on demande à une développeur de développer, on lui donne notre besoin précis. Des spécifications. Souvent, le développeur n'arrive pas à obtenir ces spécifications. Et généralement, ça l'énerve.
+Explication pour les profanes : normalement, quand on demande à un/une développeur(se) de développer, on lui donne notre besoin précis. Des spécifications. Souvent, il/elle n'arrive pas à obtenir ces spécifications. Et généralement, ça l'énerve.
 
 ![](/images/no-idea-what-im-doing-2.jpg){.img-responsive}
 
 <!--more-->
 
-Quand je n'arrive pas à obtenir de specs pour un développement que je dois réaliser, je suis heureux : ça veut dire que je peux faire ce que je veux !
+Quand je n'arrive pas à obtenir de specs pour un développement que je dois réaliser, je suis heureux : ça veut dire que je peux faire "ce que je veux" !
+
+Cet article a été écrit dans mon contexte de salarié de start-up éditrice de solutions. Je n'ai jamais travaillé en SSII ou en agence web, pour lesquelles le contexte est potentiellement différent.
 
 #Need ze no, to win, again, ze no
 
@@ -55,6 +57,8 @@ On ne sait pas trop où viser ? Et bien on va essayer un truc, le déployer rapi
 
 Généralement, on a beau discuter d'un besoin avec un fonctionnel, au bout de quelques dizaines de minutes de dialogue, tout est devenu trop abstrait pour qu'on se comprenne. Le développeur a le code en tête, il voit exactement ce qu'il peut faire. Mais le fonctionnel est dans le flou total (sans forcément s'en rendre compte). Le fait de **faire un truc**, aussi petit soit-il, permet de montrer quelque chose au fonctionnel de tangible, pour qu'il prenne ses repères et qu'il visualise mieux une problématique afin de définir la prochaine étape.
 
+"Faire un truc" peut revenir à faire un prototype. Par exemple, générer à la main un fichier CSV bidon si l'on doit développer des exports de vente. Je trouve que c'est un bon début, ça permet de cadrer certaines questions, mais que cela ne reste qu'une phase préliminaire. A un moment, il va falloir coder des trucs.
+
 Tout mon article peut se résumer par cette magnifique vidéo :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZXsQAXx_ao0" frameborder="0" allowfullscreen></iframe>
@@ -94,6 +98,8 @@ Au final, on est sorti de ce cercle vicieux en prenant deux décisions :
 A partir de là, on a pu partir sur des itérations. Rien que le fait de voir un site tout pourri utilisable a permis aux fonctionnels de faire avancer leur réflexion sur le contenu et comment l'organiser. Même chose pour le visuel : le fait de montrer un résultat moche stimule l'envie de nous donner des retours/directives.
 
 Nous avons demandé aux fonctionnels "donnez nous l'adresse d'un site qui vous plait et auquel vous voudriez ressembler". 2 jours après avoir modifié le design en accord avec la réponse, on nous fournissait un autre site de référence qui n'avait rien à voir. Tout détruire pour tout recommencer. Ca fait mal au début, mais on s'y fait. Et au final, les gens sont contents.
+
+Le pair programming a aidé, mais en combinant un développeur avec un fonctionnel. Même de manière sporadique, pendant 10 minutes par-ci par-là. Un site corpo, c'est beaucoup plus simple que des questions d'internationalisation. Le développeur peut rapidement faire des modifications cosmétiques pour que le fonctionnel donne son feedback et ses précisions instantannément. J'aurais par contre personnellement plus de mal à préconniser la méthode pour des développements compliqués, qui demandent une vraie concentration de la part du développeur qui va cracher du code imbitable pour le fonctionnel qui va surchauffer à côté.
 
 Enfin, il faut forcer à mettre en production. Sinon, ça n'arrive jamais. Il y a toujours quelque chose à finir. J'ai personnellement joué le névrotique en menaçant régulièrement de mettre le site en production à tout moment en demandant "j'ai le doigt sur la détente là, dites moi ce qui vous choque vraiment pour que je n'appuie pas, car ça va péter, ça vient !". C'est ma façon diplomate de demander aux gens de dissocier leurs besoins impératifs de ceux qui relèvent de la zone de confort, qui peuvent être traités après mise en production.
 
