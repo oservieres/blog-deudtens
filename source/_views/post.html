@@ -8,6 +8,17 @@
     <article>
         <header>
             <h2>{{ page.title }} <small>post</small></h2>
+            <p>
+                <span>{{ post.date|date('M d Y') }}</span>
+                <span> - </span>
+                {% if page.tags %}
+                    <span class="tags">
+                    {% for tag in page.tags %}
+                        <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                    </span>
+                {% endif %}
+            </p>
         </header>
         <div>
             {{ page.blocks.content|raw }}
@@ -17,14 +28,6 @@
             Categories:
             {% for category in page.categories %}
             <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-            </p>
-        {% endif %}
-        {% if page.tags %}
-            <p class="tags">
-            Tags:
-            {% for tag in page.tags %}
-            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
             </p>
         {% endif %}

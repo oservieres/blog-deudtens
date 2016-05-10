@@ -72,6 +72,7 @@ Tout mon article peut se résumer par cette magnifique vidéo :
 On a juste à faire plutôt que de discuter pendant des heures. Ainsi, on procède par petites étapes, on essaie différentes choses, on tatonne. Parfois on fait fausse route, on doit reculer et retirer du code. Deuxième étape de la démoralisation du développeur : modifier/virer des trucs qu'il vient de faire. Personnellement, [je m'en cague](http://www.dico2rue.com/dictionnaire/mot/25/s-en-caguer). Je suis payé pour faire tout ça, et il est convenu avec le fonctionnel que l'on avance ainsi. C'est le jeu.
 
 Là ou ça devient un poil lourd, c'est quand il faut modifier la base de données. Du code, ça s'ajoute et se retire à volonté sans problème. La base de données par contre, elle se manipule avec précaution. Il faut utiliser un système de migrations robuste, et tenir compte de toutes ces difficultés :
+
 * Modifier une grosse table, ça la vérouille et rend donc le site potentiellement indisponible pendant plusieurs secondes/minutes.
 * Pour renommer un champ en toute sécurité, il vaut mieux parfois en créer une copie à côté et effacer l'ancien plusieurs heures après.
 * Dès qu'on joue beaucoup avec les migrations, il devient difficile de travailler à plusieurs en parallèle sur le projet sans avoir de collisions.
@@ -86,7 +87,7 @@ Second exemple : le site corpo d'une société éditrice. C'est généralement t
 
 Avertissement : je n'ai jamais bossé en agence web. Ce qui va suivre va peut-être en défriser certains.
 
-J'ai déjà vécu un un moment d'interblocage. Plusieurs personnes étaient motivées pour travailler sur le nouveau site corpo en donnant un peu de leur temps libre, mais chacun attendait de l'input des autres. En schématisant un peu, ça donnait ça :
+J'ai déjà vécu un moment d'interblocage. Plusieurs personnes étaient motivées pour travailler sur le nouveau site corpo en donnant un peu de leur temps libre, mais chacun attendait de l'input des autres. En schématisant un peu, ça donnait ça :
 
 * on voulait acheter un thème wordpress tout fait mais on attendait de savoir quel contenu mettre pour orienter le choix ;
 * on voulait produire du contenu mais on mettait des plombes à formuler la moindre phrase et on attendait d'avoir une idée de ce que les développeurs pouvaient fournir comme mise en page ;
