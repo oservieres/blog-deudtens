@@ -11,6 +11,17 @@ use:
     <article>
         <header>
             <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+            <p>
+                <span>{{ post.date|date('M d Y') }}</span>
+                <span> - </span>
+                {% if post.tags %}
+                    <span class="tags">
+                    {% for tag in post.tags %}
+                        <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                    </span>
+                {% endif %}
+            </p>
         </header>
         <div>
             {% if '<!--more-->' in post.blocks.content %}
@@ -20,14 +31,6 @@ use:
                 {{ post.blocks.content | raw }}
             {% endif %}
         </div>
-        {% if post.meta.tags %}
-            <p class="tags">
-            Tags:
-            {% for tag in post.meta.tags %}
-            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-            </p>
-        {% endif %}
     </article>
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}
