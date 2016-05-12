@@ -1,12 +1,16 @@
+body {
+    font-size: 110%;
+    line-height: 150%;
+}
+li {
+    line-height: 140%;
+}
+
 h4 small
 {
     display: block;
     font-size: 60%;
     color: #888;
-}
-
-.mainContent, footer.container {
-    max-width: 900px;
 }
 
 footer.container {
