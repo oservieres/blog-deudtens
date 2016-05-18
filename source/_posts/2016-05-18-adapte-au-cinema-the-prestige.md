@@ -38,7 +38,7 @@ Cette fin du livre fait très "série B". Récit fantastique un poil tiré par l
 
 On peut aussi voir une mise en abime du cinéma dans l'opposition de ces deux magiciens dans le film. L'un, fauché et doué, fait penser aux films d'auteurs. L'autre, plein de succès, fascinant, mais sans âme, représente les mauvais blockbusters.
 
-Autre exemple de la plus grande force du film par rapport au livre : il arrive à rendre à rendre palpable la frustration du magicien qui reste sous la scène pendant les applaudissements, en un seul plan.
+Autre exemple de la plus grande force du film par rapport au livre : il arrive à rendre palpable la frustration du magicien qui reste sous la scène pendant les applaudissements, en un seul plan. Toute cette séquence dans laquelle le magicien utilise un sosie pour faire croire à la téléportation est dans le livre, mais le film rend ce passage plus ludique, plus tendu et plein de sens pour ce qui va suivre.
 
 ![](/images/under-stage.png){.img-responsive}
 
