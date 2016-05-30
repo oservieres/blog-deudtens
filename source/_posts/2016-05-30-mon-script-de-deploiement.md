@@ -5,6 +5,8 @@ tags:
 
 ---
 
+![](/images/deploy.jpg){.img-responsive}
+
 Je maintiens/développe un site en PHP (Symfony 2). J'ai besoin de le déployer sur des serveurs de préproduction et production. Pour l'instant, il n'y a qu'un seul frontal. Il s'agît d'un projet personnel avec pour l'instant peu de contraintes. Mon besoin :
 
 * minimiser les dépendances requises ;
