@@ -74,7 +74,7 @@ Quelques commentaires :
 * Je veille à bien supprimer le lien symbolique avant d'en créer un nouveau (6). Je ne sais plus pourquoi, l'option `-f` de ln ne suffit pas.
 * Je recharge FPM (7) car sans ça, le serveur ne capte pas que le changement de lien symbolique a fait changer les sources du site.
 
-Bref, je suis conscient de la cratitude un peu borderline de certains aspects de ce script, mais il suffit amplement à répondre à mes attentes. Pas besoin d'over-engineerer. Il peut évoluer avec le temps, ou bien être remplacé par autre chose plus tard. En l'état, il m'a demandé 30 minutes de développement, ce que j'estime très rentable.
+Bref, je suis conscient de la crasse un peu borderline de certains aspects de ce script, mais il suffit amplement à répondre à mes attentes. Pas besoin d'over-engineerer. Il peut évoluer avec le temps, ou bien être remplacé par autre chose plus tard. En l'état, il m'a demandé 30 minutes de développement, ce que j'estime très rentable.
 
 ## Et après ?
 
