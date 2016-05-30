@@ -46,7 +46,7 @@ rm -rf app/logs/*
 
 # 3.Prepare release directory
 RELEASE_DIR="/home/USER/project/releases/$(date +%F-%X)"
-ssh_command "mkdir -p ${DATE_WORKDIR}"
+ssh_command "mkdir -p ${RELEASE_DIR}"
 
 # 4.Send project
 rsync -avz --exclude .git --exclude web/app_dev.php . USER@SERVER:${RELEASE_DIR}
