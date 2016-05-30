@@ -32,7 +32,7 @@ J'ai bêtement utilisé un script bash. Je trouve ça facile et clair (marre qu'
 ```
 function ssh_command
 {
-    ssh -i CHEMIN_CLE_SSH USER@SERVER $1
+    ssh -i SSH_KEY_PATH USER@SERVER $1
 }
 
 # 1.Install dependencies
