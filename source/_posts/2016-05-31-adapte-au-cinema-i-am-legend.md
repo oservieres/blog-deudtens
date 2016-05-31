@@ -1,14 +1,12 @@
 ---
-title: Adapté au cinéma : I am legend
+title: Adapté au cinéma : I Am Legend
 tags:
     - Cinéma
     - Adapté au cinéma
 
 ---
 
-![](/images/the-prestige.png){.img-responsive}
-
-<!--more-->
+![](/images/i-am-legend.jpg){.img-responsive}
 
 ## Synopsis
 
@@ -17,6 +15,8 @@ Un virus a transformé tout le monde sur terre en sorte de zombies/vampires trè
 ## Comparatif en court et sans spoiler
 
 Le livre et le film n'ont pas grand chose à voir. Dans sa version sortie au cinéma, le film finit de manière totalement débile. Mais il existe une fin alternative (censée être la fin originale, recalée au montage) qui conclut sur la même idée que le livre et qui est très satisfaisante. Ça en fait un très bon film à mon goût, même s'il n'est pas fidèle au matériau de base.
+
+<!--more-->
 
 ## En détails et avec spoilers
 
@@ -37,8 +37,9 @@ Je passe sur un détail puant du film, dans les deux versions : il y a une sorte
 * Le chien : dans le film, c'est le compagnon du héros. Il a un vrai rôle quasiment tout au long du film, jusqu'à ce qu'il soit infecté et tué par son maître. Dans le livre, le héros est seul. Il recueille un chien mal en point au milieu du livre, et après plusieurs pages à nous raconter comment il le soigne, on nous annonce que le chien meurt quelques jours plus tard. Deux façons différentes de raconter la même histoire. En tout cas, au niveau émotion, ça marche très bien dans le film.
 * Dans le film, Neville est un scientifique noir et chauve. Dans le livre, Neville travaille à l'usine, et il est blanc avec une grosse tignasse blonde. La différence de profil professionnel est intéressante : le gros délire du livre, c'est d'expliquer scientifiquement comment marchent les vampires. Neville se met à la science par ses propres moyens, et arrive peu à peu à comprendre de manière rationnelle pourquoi les infectés/vampires craignent les pieux en bois, les miroirs, etc. C'est passionant à lire, mais visiblement c'était trop chiant pour un film à gros budget. Du coup, le chimiste en herbe est remplacé par un master de l'éprouvette : plus besoin de le montrer en train de se documenter/apprendre/chercher, il sait déjà tout.
 * Dans le film, la famille de Nevile meurt dans un crash d'hélico. On va dire que c'est net, rapide et propre. Dans le livre, c'est beaucoup plus trash : elles meurent toutes les deux à cause du virus, et sa femme revient sous la forme d'un vampire mort qui essaie de le buter.
-* Le livre est globalement plus malsain que le film. Par exemple, les vampires viennent chaque nuit harceler Neville aux portes de sa maison. Des femmes tentent de l'attirer en montrant leurs organes génitaux.
+* Le livre est globalement plus malsain que le film, ce qui le rendait de toute façon inadaptable avec un gros budget. Par exemple, les vampires viennent chaque nuit harceler Neville aux portes de sa maison. Des femmes tentent de l'attirer en montrant leurs organes génitaux.
+* Dans le livre, Neville rencontre une femme d'apparence normale mais qui s'avérera être une vampire, "infiltrée" auprès de lui pour le piéger. Dans le film, il rencontre une vraie humaine accompagnée de son fils à la seconde moitié du film. Rien à voir avec le livre. Mais contrairement à l'adaptation du personnage du chien, on perd en qualité ici. Le film devient moins intéressant à partir de l'apparition de ces personnages un peu foireux et un peu trop illuminés par Dieu.
 
 ## Conclusion
 
-Livre génial, et film super cool dans sa version "originale". je recommande de se taper les deux, ça vaut le coup. Et le film est très intéressant à voir pour se rendre compte de tout le travail d'adaptation, même quand le résultat final n'a pas grand chose à voir avec l'histoire originale.
+Livre génial, et film super cool dans sa version "originale", malgré une seconde moitié moins bonne que la première. Je recommande de se taper les deux, ça vaut le coup. Et le film est très intéressant à voir pour se rendre compte de tout le travail d'adaptation, même quand le résultat final n'a pas grand chose à voir avec l'histoire originale.
