@@ -19,6 +19,10 @@ footer.container {
     border-top: 1px dashed #aaa;
 }
 
+.sidebar .atom, .sidebar .stuff, .sidebar .short-films {
+    display: none;
+}
+
 @media (max-width: 767px) {
     .sidebar {
         padding-top: 30px;
@@ -28,6 +32,16 @@ footer.container {
     body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
         padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .sidebar .atom, .sidebar .stuff, .sidebar .short-films {
+        display: block;
+    }
+
+    .bottom-menu {
+        display: none;
     }
 }
 
