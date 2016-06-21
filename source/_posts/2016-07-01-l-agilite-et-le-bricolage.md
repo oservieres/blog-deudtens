@@ -88,3 +88,13 @@ Tirer le chariot avec un fil, c'est très con, très moche, mais ça marche. En 
 La tige filetée, je trouve que c'est une solution très classe. C'est propre, c'est joli à voir. Mais comment on fait pour faire avancer le chariot rapidement en cas de besoin ? De plus, la longueur de la tige est problématique : il faut qu'elle rentre dans ma valise. Et cela m'empêche de rendre mes rails plus longs ultérieurement, vu que la longueur de la tige doit suivre. Je n'arrive pas à me sortir l'idée de la tête. Dans le doute, j'achète une tige chez Leroy merlin à 0.60 €. Dans le pire des cas, elle me servira à caler un meuble.
 
 Bref, je pars sur l'idée du fil pour l'instant. L'avantage, c'est qu'elle ne coute rien qui lui soit spécifique, en dehors du fil. Je pourrai réutiliser les autres matériaux si jamais je pars sur une autre solution au final.
+
+# Itération 4 : la fixation de l'appareil
+
+# Itération 5 : la transportabilité
+
+J'ai fait  un magnifique chariot à timelapse. Maintenant, je vais le couper en deux.
+
+# Pour plus tard
+
+Il y a un problème avec mon dispositif : le moteur tourne en continu, la caméra est en perpétuel mouvement.
