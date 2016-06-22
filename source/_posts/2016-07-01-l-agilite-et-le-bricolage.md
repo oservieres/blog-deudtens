@@ -133,5 +133,40 @@ Il y a un problème avec mon dispositif : le moteur tourne en continu, la camér
 
 Bref, le mouvement combiné à l'exposition longue provoque du flou de mouvement. Si un développeur et un chef de projet, tous deux de mauvaise foi, discutaient du problème, ça donnerait ça :
 
-- *Développeur* : 
-- *chef de projet* : 
+```
+- (Chef de projet) Tu me fais un timelapse de nuit avec exposition longue steuplé ?
+
+- (Développeur) Je peux, mais ça va être un peu flou.
+
+- Pourquoi ? C'est pas flou d'habitude.
+
+- Le fait que le chariot bouge en continu alors qu'on fait une exposition longue, ça rend les photos floues.
+
+- J'ai une idée : tu bouges le chariot d'un centimètre, tu l'arrêtes, tu prends une photo, tu bouges le chariot d'un centimètre, ainsi de suite.
+
+- C'est pas facile.
+
+- Bah t'as déjà un bouton ON/OFF sur ton rail, tu peux le faire non ?
+
+- Oui mais ça veut dire que je dois rester à côté du rail pendant une heure pour l'actionner à la main. C'est stupide, il faut automatiser ce processus.
+
+- Ok, fais-le !
+
+- Il me faut 2 semaines et 300 € pour le faire.
+
+- Ok, le fais pas !
+
+- Ok super !
+
+- Mais pourquoi ça prend autant de temps ? J'ai l'impression que c'est juste deux branchements à revoir.
+
+- Non, il faut quelque chose qui programme l'action du moteur à intervalles réguliers. Et puis il faut changer le moteur : il faut qu'il soit plus rapide pour rattraper la distance non parcourue quand la photo est en train d'être prise. Et il faut qu'il soit précis, donc il faudrait probablement passer à un moteur pas-à-pas.
+
+- Vas-y, je te donne le temps pour faire tout ça, par contre, garde le même moteur STP.
+
+- Ah, j'oubliais : il faut aussi synchroniser la prise de vue de l'appareil avec l'avancée du moteur. Je n'ai jamais fait ça, je ne sais pas faire. Je peux y arriver, mais je ne sais pas en combien de temps.
+
+- 3 jours ?
+
+- ...
+```
