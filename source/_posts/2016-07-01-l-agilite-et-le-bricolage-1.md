@@ -1,11 +1,12 @@
 ---
-title: L'agilité et le bricolage
+title: Un chariot à timelapse construit en Agile (1/2)
 tags:
     - Savoir vivre de dev
     - Agile
+    - Bidouillage
 
 ---
-J'ai toujours l'impression de montrer un canif à une poule quand j'essaie d'expliquer les méthodes agiles à des non-développeurs. Et l'agile, j'adore ça, je remplis ma vie perso d'agile. Je raconte dans ce billet comment j'ai construit un chariot à travelling pour timelapse en agile. Au passage, je fais des parallèles avec le monde informatique à grand coup de métaphores et de trolls.
+J'ai toujours l'impression de montrer un canif à une poule quand j'essaie d'expliquer les méthodes agiles, ou même comment je travaille, à des non-développeurs. Et l'agile, j'adore ça, je remplis ma vie perso d'agile. Je raconte dans ce billet comment j'ai construit un chariot à travelling pour timelapse en utilisant des raisonnements que je réserve d'habitude à la programmation.
 
 <!--more-->
 
@@ -19,16 +20,20 @@ Et ce truc permet de faire des trucs comme ça :
 
 ![](/images/timelapse/exemple.gif){.img-responsive}
 
-Plus précisément, voici mes critères :
+Plus précisément, voici mes besoins :
 
 * je veux faire un travelling sur 1 mètre minimum, plus que ça si possible ;
 * le machin doit rentrer dans une valise pour voyager avec ;
 * le truc doit être construisible par moi, qui ne sait pas beaucoup bricoler ;
-* la chose doit me couter (beaucoup) moins de 100 € ;
+* la chose doit me coûter (beaucoup) moins de 100 € ;
+
+Teasing : on verra à la fin que je n'avais en fait pas vraiment ces besoins là. Comme en informatique, on pense souvent savoir ce que l'on veut, mais c'est rarement en adéquation avec ce dont on a vraiment besoin.
 
 # Itération 1 : le prototype en LEGO
 
-Je ne sais pas encore si je veux vraiment faire ce truc : ça va me coûter du temps et de l'argent. Pour m'aider à me décider, je construis une première version en LEGO.
+*Pour info, j'avais déjà fait un article de blog sur ce prototype, sur mon ancienne version du blog. Je n'ai pas pris la peine de le réimporter, tout est dans ce paragraphe.*
+
+Je ne sais pas encore si je veux vraiment faire ce projet : ça va me coûter du temps et de l'argent. Pour m'aider à me décider, je construis une première version en LEGO.
 
 ![](/images/timelapse/lego.jpg){.img-responsive}
 
@@ -40,16 +45,16 @@ C'est plutôt convaincant pour un machin bidouillé en une après midi chez papa
 
 * ça fait un bruit de fou ;
 * il faut que le chariot avance sur un sol/support parfaitement lisse ;
-* pas possible de faire progresser le chariot en pente ;
+* pas possible de faire progresser le chariot en pente/verticalement ;
 * il faut que je rende les LEGO à mes neveux maintenant.
 
-Je me suis bien amusé, mais je me suis lassé du projet : finalement, maintenant que j'ai le prototype entre les mains, je n'ai plus trop envie d'y passer du temps. Je me rends comtpe que je ne sais pas faire de time lapse. je vais d'abord passer du temps à maitriser la technique sans mouvement de caméra.
+Je me suis bien amusé, mais je me suis lassé du projet : finalement, maintenant que j'ai le prototype entre les mains, je n'ai plus trop envie d'y passer du temps. Je me rends compte que je ne sais pas faire de time lapse. je vais d'abord passer du temps à maitriser la technique sans mouvement de caméra.
 
-Et ne me traitez pas de gamin capricieux qui change de jouet après 5 minutes : mon métier, c'est de mettre en pause des projets en cours pour lancer des projets de toute urgence qui seront mis en pause pour lancer d'autres projets de toute urgence.
+Et ne me traitez pas de gamin capricieux qui change de jouet après 5 minutes : au travail, mon quotidien, c'est de mettre en pause des tâches en cours pour lancer des tâches de toute urgence qui seront mises en pause pour lancer d'autres tâches de toute urgence.
 
 # Itération 2 : le MVP
 
-Quelques mois plus tard, j'ai fait plusieurs time lapses fixes, et je commence à m'ennuyer. l'envie de mouvement revient. On ressort le projet du grenier !
+Quelques mois plus tard, j'ai fait plusieurs time lapses fixes, et je commence à m'ennuyer. L'envie de mouvement revient. On ressort le projet du grenier !
 
 Je commence à constuire une version "pour de vrai" :
 
@@ -70,17 +75,19 @@ Au niveau budget :
 
 Bon, pour l'instant, il est un peu pourri ce chariot à travelling :
 
-* l'appareil photo tient mal ;
+* l'appareil photo tient mal, posé bêtement ;
 * le chariot est propulsé par la force du bras. Je préférerais qu'il avance tout seul ;
 * le rail est trop grand pour rentrer dans une valise ;
 
-Mais cette première version me permet de vérifier la faisabilité du bordel. De plus, je n'ai aucune idée de comment régler les 3 problèmes cités. Le fait d'avoir cette première version sous les yeux, de pouvoir la tripoter et la mesurer, me permet de réfléchir à la suite.
+Mais cette première version me permet de vérifier la faisabilité du bordel. De plus, je n'ai aucune idée de comment régler les 3 problèmes cités. Le fait d'avoir cette première version sous les yeux, de pouvoir la tripoter et la mesurer, me permet de réfléchir à la suite. Tout ça en vissant trois planches, deux bouts de feraille et quelques roulettes, c'est déjà bien.
+
+Je fonctionne pareil avec mes projets web : je les simplifie à outrance, parfois même jusqu'à l'absurde en apparence, pour les déployer sur le net le plus vite possible.
 
 # Itération 3 : la transportabilité
 
-Je choisis de traiter ce sujet en priorité car il est structurant : des choix que je vais faire ici vont découler mes contraintes pour la suite.
+A ce moment là, j'aimerais travailler sur la motorisation, afin d'avoir un objet pleinement fonctionnel et faire des essais avec. Malheureusement, je n'ai pas encore reçu les pièces détachées pour celà. Ainsi, je me rabats sur des tâches moins urgentes. Je verrai plus tard que c'était une erreur, et que j'aurais du mettre le projet en pause.
 
-Le choix que je fais, c'est de couper mes rails en deux afin de les faire rentrer dans la valise. Mais avant cela, je fixe d'abord les pates qui assembleront les morceaux de rails :
+Le choix que je fais, c'est de couper mes rails en deux afin de les faire rentrer dans la valise. Mais avant cela, je fixe d'abord les pattes qui assembleront les morceaux de rails :
 
 ![](/images/timelapse/v2-1.jpg){.img-responsive}
 
@@ -96,15 +103,15 @@ Une fois le bordel remonté, on obtient un magnifique rail en kit :
 
 ![](/images/timelapse/v2-4.jpg){.img-responsive}
 
-Au niveau budget, ya pas mal de pattes, de vis et d'écrous papillons. Il doit y en avoir pour une dizaine d'euros.
+Au niveau budget, il y a pas mal de pattes, de vis et d'écrous papillons. Il doit y en avoir pour une dizaine d'euros.
 
-J'insiste sur le fait d'avoir rajouté les morceaux de feraille avant d'avoir coupé les rails : cela permet de minimiser le temps pendant lequel mes rails sont inutilisables. De plus, cela apporte une sécurité de travailler sur un rail encore fonctionnel avant d'entamer la partie critique. En informatique, ça peut s'apparenter à du feature toggle : on peut prendre du temps pour développer une fonctionnalité, ce n'est pas grave, tant que l'ancien système continue à fonctionner.
+J'insiste sur le fait d'avoir rajouté les morceaux de feraille avant d'avoir coupé les rails : cela permet de minimiser le temps pendant lequel mes rails sont inutilisables. De plus, cela apporte une sécurité de travailler sur un rail encore fonctionnel avant d'entamer la partie critique. Je ne lâche pas ma branche avant d'avoir saisi la prochaine. En informatique, ça peut s'apparenter à du feature toggle : on peut prendre du temps pour développer une fonctionnalité, ce n'est pas grave, tant que l'ancien système continue à fonctionner.
 
 **Le bonus** : je peux maintenant intercaler autant de rails que je veux entre mes deux parties principales !
 
 ![](/images/timelapse/v2-5.jpg){.img-responsive}
 
-Par contre, il y a un **bug** : quand le chariot passe sur la jonction entre deux rails, il subit une légère secousse. J'espère que ce n'est pas grave, et que le tremblement ne se ressentira pas sur une avancée très lente du chariot. Mais je n'ai pas encore ce problème. Je verrai en temps voulu. En attendant, je peux vivre avec ce bug.
+Par contre, il y a un **bug** : quand le chariot passe sur la jonction entre deux rails, il subit une légère secousse. J'espère que ce n'est pas grave, et que le tremblement ne se ressentira pas sur une avancée très lente du chariot. Mais je n'ai pas encore ce problème. Je verrai en temps voulu lors de mes premiers tests. En attendant, je peux vivre avec ce bug.
 
 C'est l'occasion de me rappeler pourquoi je préfère d'habitude réfléchir en [KISS](https://www.techopedia.com/definition/20262/keep-it-simple-stupid-principle-kiss-principle) : les systèmes les plus simples sont ceux qui marchent le mieux. En complexifiant mon rail, j'ai rendu son fonctionnement plus ardu et ai engendré de nouveaux problèmes.
 
@@ -116,7 +123,7 @@ J'ai acheté une tête de trépied sur Aliexpress à 18 € et je l'ai vissée a
 
 Je crois que c'est le composant le plus cher de mon projet. J'aurais pu bricoler un truc moi même, mais ça n'aurait pas été aussi bien fait (même si la tête n'est pas parfaite) et ça m'aurait pris beaucoup de temps. En informatique, on peut faire le parallèle avec les dépendances d'un projet.
 
-Au passage, j'ai récupéré divers morceaux d'attaches pour Gopro et j'ai fait une mini grue :
+Au passage, j'ai récupéré divers morceaux d'attaches pour Gopro ainsi qu'une perche et j'ai fait une mini grue :
 
 ![](/images/timelapse/v4-2.jpg){.img-responsive}
 
@@ -126,9 +133,7 @@ L'intérêt, c'est de pouvoir faire des plans au ras du sol sans que l'on voie l
 
 # Itération 5 : la motorisation
 
-Enfin ! Si je n'avais pas du attendre la livraison des pièces, j'aurais commencé cette étape en premier. C'est la plus difficile et la plus incertaine.
-
-J'ai plusieurs solutions en tête. La question, c'est comment entraine-t-on le mouvement :
+J'ai plusieurs solutions en tête. La question, c'est "comment entraine-t-on le mouvement ?" :
 
 * [avec une couroie](http://www.instructables.com/id/DIY-motorized-moving-timelapse-camera-dolly-with-A/) ;
 * [avec une crémaillière](https://www.youtube.com/watch?v=hVYeO-F-8kA) ;
@@ -143,7 +148,7 @@ La tige filetée, je trouve que c'est une solution très classe. C'est propre, c
 
 Bref, je pars sur l'idée du fil pour l'instant. L'avantage, c'est qu'elle ne coûte rien qui lui soit spécifique, en dehors du fil. Je pourrai réutiliser les autres matériaux si jamais je pars sur une autre solution au final.
 
-En utilisant la solution de la tige filtée, j'aurais fait de l'[overengineering](http://www.codesimplicity.com/post/what-is-overengineering/). J'aurais pu me gargariser d'avoir quelque chose d'intellectuellement flatteur, mais j'aurais été bien emmerdé par la complexité du truc.
+En utilisant la solution de la tige filtée, j'aurais fait de l'[overengineering](http://www.codesimplicity.com/post/what-is-overengineering/). J'aurais pu me gargariser d'avoir quelque chose d'intellectuellement flatteur, mais j'aurais été bien emmerdé par la complexité du truc et l'évolutivité réduite..
 
 Première étape, je mets en place le minimum nécessaire à l'action du chariot, un fil :
 
@@ -153,52 +158,27 @@ Notez que la boucle et le petit mousqueton sont **chers sa race**. Je n'ai plus 
 
 Je peux maintenant précisément tirer mon chariot... à la main. J'ai l'air con, ça va me prendre du temps et de l'énergie lorsque je ferai un timelapse, et puis ça ne sera pas très précis, mais c'est faisable. Chers chefs de projets, quand vous me demandez de faire un truc à moitié fini quitte à faire des choses à la main ensuite, ça donne ça.
 
-Vient le temps de la motorisation.
+Vient le temps de la motorisation. Pour celà, j'ai commandé :
+* un moteur 12V DC avec réducteur qui tourne à 2 tours/minute ;
+* un variateur de vitesse ;
+* un inverseur bipolaire ;
+* une prise d'alimentation jack femelle ;
+* un boitier pour enfermer tout ça ;
+* un mandrin de perceuse pour enrouler le cable.
 
-# Pour plus tard
+Ça donne ça :
 
-Il y a un problème avec mon dispositif : le moteur tourne en continu, la caméra est en perpétuel mouvement. C'est une limitation qui provoque des symptômes lorsque l'on fait des expositions longues :
 
-Bref, le mouvement combiné à l'exposition longue provoque du flou de mouvement. Si un développeur et un chef de projet, **tous deux** de mauvaise foi, discutaient du problème, ça donnerait ça :
+Le tout est alimenté par un transformateur de 12V trouvé sur un routeur qui pourrissait au fond d'un tiroir. À terme, j'achèterai une batterie.
 
-```
-- (Chef de projet) Tu me fais un timelapse de nuit avec exposition longue steuplé ?
+# Premier test
 
-- (Développeur) Je peux, mais ça va être un peu flou.
+Le dispositif :
 
-- Pourquoi ? C'est pas flou d'habitude.
+Le résultat :
 
-- Le fait que le chariot bouge en continu alors qu'on fait une exposition longue, ça rend les photos floues.
 
-- Pourquoi vous n'avez pas prévu ça dès le début ?
+C'est la catastrophe. C'est de la merde. La caméra part dans tous les sens. Ce n'est pas stable. Essayons de mettre un coup de stabilisateur avec After Effects :
 
-- Vous nous l'avez pas demandé.
+C'est tout autant dégueulasse. J'ai foiré. Il faut tout revoir. Mais ça, ça sera pour le prochain article.
 
-- J'ai une idée : tu bouges le chariot d'un centimètre, tu l'arrêtes, tu prends une photo, tu bouges le chariot d'un centimètre, ainsi de suite.
-
-- C'est pas facile.
-
-- Bah t'as déjà un bouton ON/OFF sur ton rail, tu peux le faire non ?
-
-- Oui mais ça veut dire que je dois rester à côté du rail pendant une heure pour l'actionner à la main. C'est stupide, il faut automatiser ce processus.
-
-- Ok, fais-le !
-
-- Il me faut 2 semaines et 300 € pour le faire.
-
-- Ok, le fais pas !
-
-- Ok super !
-
-- Mais pourquoi ça prend autant de temps ? J'ai l'impression que c'est juste deux branchements à revoir.
-
-- Non, il faut quelque chose qui programme l'action du moteur à intervalles réguliers. Et puis il faut changer le moteur : il faut qu'il soit plus rapide pour rattraper la distance non parcourue quand la photo est en train d'être prise. Et il faut qu'il soit précis, donc il faudrait probablement passer à un moteur pas-à-pas.
-
-- Vas-y, je te donne le temps pour faire tout ça, par contre, garde le même moteur STP.
-
-- Ah, j'oubliais : il faut aussi synchroniser la prise de vue de l'appareil avec l'avancée du moteur, pour qu'il ne prenne de photo que lorsqu'il est immobile. Je n'ai jamais fait ça, je ne sais pas faire. Je peux y arriver, mais je ne sais pas en combien de temps.
-
-- On dit 3 jours ?
-
-- ...
-```
