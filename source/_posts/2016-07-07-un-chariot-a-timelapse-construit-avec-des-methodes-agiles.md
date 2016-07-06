@@ -6,7 +6,10 @@ tags:
     - Bidouillage
 
 ---
+
 J'ai toujours l'impression de montrer un canif à une poule quand j'essaie d'expliquer les méthodes agiles, ou même comment je travaille, à des non-développeurs. Je raconte dans ce billet comment j'ai construit un chariot à travelling pour timelapse en utilisant une partie des raisonnements que je réserve d'habitude au développement web.
+
+![](/images/timelapse/v6-1.jpg){.img-responsive}
 
 <!--more-->
 
