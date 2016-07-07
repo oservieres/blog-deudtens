@@ -13,6 +13,8 @@ J'ai toujours l'impression de montrer un canif à une poule quand j'essaie d'exp
 
 <!--more-->
 
+Cet article n'est pas vraiment un tutorial sur comment réaliser ce genre de matériel (même s'il peut aider) : vous trouverez ce genre de contenu partout sur Internet. Ici, j'essaie surtout de jouer le parallèle avec mon métier habituel.
+
 # Le besoin
 
 Je veux faire un truc comme ça :
@@ -118,7 +120,7 @@ J'insiste sur le fait d'avoir rajouté les morceaux de feraille avant d'avoir co
 
 Par contre, il y a un **bug** : quand le chariot passe sur la jonction entre deux rails, il subit une légère secousse. Je le sens en manipulant le chariot à la main. J'espère que ce n'est pas grave, et que le tremblement ne se ressentira pas sur une avancée très lente du chariot. Mais je n'ai pas encore ce problème. Je verrai en temps voulu lors de mes premiers tests. En attendant, je peux vivre avec ce bug.
 
-C'est l'occasion de me rappeler pourquoi je préfère d'habitude réfléchir en [KISS](https://www.techopedia.com/definition/20262/keep-it-simple-stupid-principle-kiss-principle) : les systèmes les plus simples sont ceux qui marchent le mieux. En complexifiant mon rail, j'ai rendu son fonctionnement plus ardu et ai engendré de nouveaux problèmes.
+C'est l'occasion de me rappeler pourquoi je préfère d'habitude réfléchir en [KISS](https://www.techopedia.com/definition/20262/keep-it-simple-stupid-principle-kiss-principle) : les systèmes les plus simples sont ceux qui marchent le mieux. [En complexifiant mon rail, j'ai rendu son fonctionnement plus ardu et ai engendré de nouveaux problèmes](https://bartwronski.com/2016/06/26/technical-weight/).
 
 # Itération 4 : la fixation de l'appareil photo
 
@@ -128,7 +130,7 @@ J'ai acheté une tête de trépied à 18 € et je l'ai vissée au milieu de mon
 
 Je crois que c'est le composant le plus cher de mon projet. J'aurais pu bricoler un truc moi même, mais ça n'aurait pas été aussi bien fait et ça m'aurait pris beaucoup de temps. En informatique, on peut faire le parallèle avec les dépendances d'un projet : plutôt que de faire un truc soit-même, on investit dans l'utilisation d'une brique existante, quitte à ce qu'elle fasse un peu trop de choses et qu'elle soit un poil lourde. Notez que même quand cette dépendance est libre/opensource/trucquialairgratuit, elle a un coût : de maintenance, de mise à jour et d'évolution.
 
-Au passage, j'ai récupéré divers morceaux d'attaches pour Gopro ainsi qu'une perche et j'ai fait une mini grue :
+Au passage, j'ai récupéré divers morceaux d'attaches pour Gopro ainsi qu'une perche (non, pas une perchie à selfie) et j'ai fait une mini grue :
 
 ![](/images/timelapse/v4-2.jpg){.img-responsive}
 
@@ -209,7 +211,7 @@ Mais pire que ça, je me rends compte que j'ai construit un objet qui ne me sert
 * Le machin que j'ai construit est LOURD. Comme quand on développe une usine à gaz en informatique. On dit souvent que c'est lourd. Ben là c'est pareil, sauf que c'est littéralement lourd.
 * le mouvement est rapide. Moi, ce que je veux, c'est un travelling très lent, voir imperceptible, pour donner juste un peu de profondeur et de parallaxe à l'image. Quelque chose de doux, subtil et maitrisé, comme moi. Un mouvement lent implique qu'on a encore moins besoin d'une grande longueur de rails.
 
-Bref, je me suis focalisé sur l'extensibilité alors que je n'en avais pas besoin. Je ne vais même pas chercher à régler ce problème de secousses sur les jonctions : je n'ai plus besoin des jonctions.
+Bref, je me suis focalisé sur l'extensibilité alors que je n'en avais pas besoin. Je ne vais même pas chercher à régler ce problème de secousses sur les jonctions : je n'ai plus besoin des jonctions. D'une certaine manière, j'ai accumulé une [dette technique et fonctionnelle](https://medium.com/the-ready/how-to-eliminate-organizational-debt-8a949c06b61b#.vqol8tuqe) que je dois rembourser. j'en suis arrivé là car [j'ai trop anticipé des besoins que je n'avais pas](http://sebastiansylvan.com/post/the-perils-of-future-coding/).
 
 En disant ça, je fais quelque chose que j'ai trop peu vu dans ma vie de développeur : j'abandonne une fonctionnalité. J'aimerais que ça arrive plus souvent, mais il y a toujours une (mauvaise) raison de garder cet écran de backend pourri qui plante constamment, ou bien cette fonctionnalité de recherche avancée que personne n'utilise.
 
@@ -251,9 +253,9 @@ Idée : il faudrait que le chariot s'arrête lorsqu'il arrive en butée. Il faud
 
 # Et encore après
 
-La staiblité du chariot n'est pas encore à son maximum. Maintenant, je pense que ça se joue au niveau des roues et de leur positionnement par rapport au rail. Déjà, ce sont des roues de mauvais qualité. Si vous regardez les autres projets DIY similaires au mien, beaucoup utilisent des roues de rollers avec roulements à billes. Hors de question que j'aille vers cette solution : mon budget exploserait.
+La stabilité du chariot n'est pas encore à son maximum. Maintenant, je pense que ça se joue au niveau des roues et de leur positionnement par rapport au rail. Déjà, ce sont des roues de mauvaise qualité. Si vous regardez les autres projets DIY similaires au mien, beaucoup utilisent des roues de rollers avec roulements à billes. Hors de question que j'aille vers cette solution : mon budget exploserait.
 
-L'autre possibilité, ce serait d'élargir mon chariot pour que les roues touchent bien le fond des rails en espérant que ça rende le tout plus stable. À essayer. On peut faire le parralèle avec la maintenance d'un site/service web : il nous arrive d'avoir des problèmes de performances latents. Des problèmes de réplications de données sur un serveur de base de données. Des lenteurs dans la mise à disposition de nouvelles données. Dans ces cas là, il arrive qu'on comprenne à peu près la cause du problème, mais qu'on le résolve en tatonnant, en changeant des éléments de configuration et en regardant ce que ça fait. C'est pourquoi dans ces cas de figure un développeur n'est jamais sûr à 100% qu'un problème est réglé et qu'il faut attendre que le correctif apporté soit éprouvé.
+L'autre possibilité, ce serait d'élargir mon chariot pour que les roues touchent bien le fond des rails en espérant que ça rende le tout plus stable. À essayer. On peut faire le parallèle avec la maintenance d'un site/service web : il nous arrive d'avoir des problèmes de performances latents. Des problèmes de réplications de données sur un serveur de base de données. Des lenteurs dans la mise à disposition de nouvelles données. Dans ces cas là, il arrive qu'on comprenne à peu près la cause du problème, mais qu'on le résolve en tatonnant, en changeant des éléments de configuration et en regardant ce que ça fait. C'est pourquoi dans ces cas de figure un développeur n'est jamais sûr à 100% qu'un problème est réglé et qu'il faut attendre que le correctif apporté soit éprouvé.
 
 # Et toujours après
 
@@ -314,7 +316,7 @@ Cette conversation, plusieurs fois vécue, comporte plein de grands classiques :
 
 * l'argument du "ça se fait en 3 lignes de code" ;
 * les contraintes au niveau des moyens donnés qui vont jusqu'à l'absurde : de la contrainte peut naître l'innovation, mais quand on est dans un sujet si technique, qu'on parle en fait du coeur du projet à un niveau très profond, il n'y a pas de secret, il faut y passer le temps nécessaire pour obtenir une solution de qualité ;
-* le développeur à qui on doit tirer les vers du nez pour comprendre pourquoi le problème est compliqué. On se demande parfois si il ne se fout pas de nous.
+* le développeur à qui on doit tirer les vers du nez pour comprendre pourquoi le problème est compliqué. On se demande parfois s'il ne se fout pas de nous.
 
 # Un dernier test
 
