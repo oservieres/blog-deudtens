@@ -53,7 +53,7 @@ C'est plutôt convaincant pour un machin bidouillé en une après midi chez papa
 * pas possible de faire progresser le chariot en pente/verticalement ;
 * il faut que je rende les LEGO à mes neveux maintenant.
 
-Je me suis bien amusé, mais je me suis lassé du projet : finalement, maintenant que j'ai le prototype entre les mains, je n'ai plus trop envie d'y passer du temps. Je me rends compte que je ne sais pas faire de time lapse. je vais d'abord passer du temps à maitriser la technique sans mouvement de caméra.
+Je me suis bien amusé, mais je me suis lassé du projet : finalement, maintenant que j'ai le prototype entre les mains, je n'ai plus trop envie d'y passer du temps. Je me rends compte que je ne sais "pas faire" de time lapse : Il faut que j'apprenne à composer un cadre, que je sache quoi filmer avec cette technique, et que j'arrive à maîtriser tous les réglages de mon Reflex dans ce cadre. je vais d'abord passer du temps à maitriser la technique sans mouvement de caméra.
 
 Et ne me traitez pas de gamin capricieux qui change de jouet après 5 minutes : au travail, mon quotidien, c'est de mettre en pause des tâches en cours pour lancer des tâches de toute urgence qui seront mises en pause pour lancer d'autres tâches de toute urgence.
 
@@ -116,7 +116,7 @@ J'insiste sur le fait d'avoir rajouté les morceaux de feraille avant d'avoir co
 
 ![](/images/timelapse/v2-5.jpg){.img-responsive}
 
-Par contre, il y a un **bug** : quand le chariot passe sur la jonction entre deux rails, il subit une légère secousse. J'espère que ce n'est pas grave, et que le tremblement ne se ressentira pas sur une avancée très lente du chariot. Mais je n'ai pas encore ce problème. Je verrai en temps voulu lors de mes premiers tests. En attendant, je peux vivre avec ce bug.
+Par contre, il y a un **bug** : quand le chariot passe sur la jonction entre deux rails, il subit une légère secousse. Je le sens en manipulant le chariot à la main. J'espère que ce n'est pas grave, et que le tremblement ne se ressentira pas sur une avancée très lente du chariot. Mais je n'ai pas encore ce problème. Je verrai en temps voulu lors de mes premiers tests. En attendant, je peux vivre avec ce bug.
 
 C'est l'occasion de me rappeler pourquoi je préfère d'habitude réfléchir en [KISS](https://www.techopedia.com/definition/20262/keep-it-simple-stupid-principle-kiss-principle) : les systèmes les plus simples sont ceux qui marchent le mieux. En complexifiant mon rail, j'ai rendu son fonctionnement plus ardu et ai engendré de nouveaux problèmes.
 
@@ -181,7 +181,7 @@ J'ai assemblé le tout sommairement avant de vraiment percer des trous dans mon 
 
 ![](/images/timelapse/v5-1.jpg){.img-responsive}
 
-Le tout est alimenté par un transformateur de 12V trouvé sur un routeur qui pourrissait au fond d'un tiroir. À terme, j'achèterai une batterie.
+Le tout est alimenté par un transformateur de 12V trouvé sur un routeur qui pourrissait au fond d'un tiroir.
 
 # Premier test
 
@@ -241,12 +241,21 @@ Ca commence a être vraiment bien. Au passage, j'ai fait plein de petites améli
 * Le fil avait tendance à mal s'enrouler autour du mandrin. Une pièce en plastique ronde permet maintenant de guider le fil.
 * La télécommande trainait et déstabilisait surement l'appareil quand elle était enroulée autour. Je l'ai fixée au boitier moteur avec du velcro.
 * J'ai rajouté un inverseur bipolaire (l'interrupteur, là) pour changer le sens de rotation du moteur.
+* J'ai rajouté une batterie en place du transformateur.
+
+![](/images/timelapse/v7-2.jpg){.img-responsive}
 
 # Et après
 
-Idée : il faudrait que le chariot s'arrête lorsqu'il arrive en butée. Il faudrait que je rajoute un interrupteur actionné par le chariot lorsqu'il vient au contact. En attendant, je dois rester à côté de mon bordel pour le surveiller.
+Idée : il faudrait que le chariot s'arrête lorsqu'il arrive en butée. Il faudrait que je rajoute un interrupteur actionné par le chariot lorsqu'il vient au contact. En attendant, je dois rester à côté de mon bordel pour le surveiller. Sinon, le moteur continue à tourner alors que le chariot est bloqué, et j'ai peur que ça prenne feu.
 
 # Et encore après
+
+La staiblité du chariot n'est pas encore à son maximum. Maintenant, je pense que ça se joue au niveau des roues et de leur positionnement par rapport au rail. Déjà, ce sont des roues de mauvais qualité. Si vous regardez les autres projets DIY similaires au mien, beaucoup utilisent des roues de rollers avec roulements à billes. Hors de question que j'aille vers cette solution : mon budget exploserait.
+
+L'autre possibilité, ce serait d'élargir mon chariot pour que les roues touchent bien le fond des rails en espérant que ça rende le tout plus stable. À essayer. On peut faire le parralèle avec la maintenance d'un site/service web : il nous arrive d'avoir des problèmes de performances latents. Des problèmes de réplications de données sur un serveur de base de données. Des lenteurs dans la mise à disposition de nouvelles données. Dans ces cas là, il arrive qu'on comprenne à peu près la cause du problème, mais qu'on le résolve en tatonnant, en changeant des éléments de configuration et en regardant ce que ça fait. C'est pourquoi dans ces cas de figure un développeur n'est jamais sûr à 100% qu'un problème est réglé et qu'il faut attendre que le correctif apporté soit éprouvé.
+
+# Et toujours après
 
 Il y a un problème avec mon dispositif : le moteur tourne en continu, la caméra est en perpétuel mouvement. C'est une limitation qui provoque des symptômes lorsque l'on fait des expositions longues : le mouvement provoque du flou de mouvement non désiré. Dans la plupart des cas c'est imperceptible. Mais en cas d'exposition très longue, ça peut devenir moche.
 
