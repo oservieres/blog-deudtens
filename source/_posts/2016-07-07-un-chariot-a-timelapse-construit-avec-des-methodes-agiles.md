@@ -3,7 +3,7 @@ title: Un chariot à timelapse construit avec des méthodes agiles
 tags:
     - Savoir vivre de dev
     - Agile
-    - Bidouillage
+    - Bidouillages
 
 ---
 
