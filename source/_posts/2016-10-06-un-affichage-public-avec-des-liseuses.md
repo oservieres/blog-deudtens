@@ -41,7 +41,7 @@ Je le dis tout le temps, et j'aime bien le répéter : mettre en place un affich
 
 Une fois que ces problèmes non-anticipés apparaissent, on les laisse généralement trainer, et on se retrouve avec un truc visible par tous et qui ne marche pas. Le résultat est déprimant.
 
-On a aussi tendance à oublier que ces affichages nécessitent de la maintenance. Celle-ci a un coup plus élevé que celle d'un site web, vu qu'elle nécessite des opérations physiques.
+On a aussi tendance à oublier que ces affichages nécessitent de la maintenance. Celle-ci a un coût plus élevé que celle d'un site web, vu qu'elle nécessite des opérations physiques.
 
 ##Notre cas
 
@@ -49,11 +49,11 @@ Tadaaaa :
 
 ![](/images/liseuse_1.jpg){.img-responsive}
 
-On a donc une liseuse patafixée au mur, avec le cable de charge qui part vers la prise. J'aurais aimé me passer de ce cable pour utiliser la batterie, quitte à brancher la liseuse tous les 10 jours pour qu'elle se recharge. Mais l'application bouffe la batterie en une journée : c'est une première version, je n'ai pas du tout réfléchi à comment optimiser la consommation électrique. Il y a clairement moyen de faire mieux, ce qui serait souhaitable vu que l'utilisation d'un chargeur annule un peu l'intérêt d'avoir un écran E-ink.
+On a donc une liseuse patafixée au mur, avec le câble de charge qui part vers la prise. J'aurais aimé me passer de ce câble pour utiliser la batterie, quitte à brancher la liseuse tous les 10 jours pour qu'elle se recharge. Mais l'application bouffe la batterie en une journée : c'est une première version, je n'ai pas du tout réfléchi à comment optimiser la consommation électrique. Il y a clairement moyen de faire mieux, ce qui serait souhaitable vu que l'utilisation d'un chargeur annule un peu l'intérêt d'avoir un écran E-ink.
 
 Au niveau de la mise en place, sur la première salle de la réunion, ça s'est plutôt bien passé. L'appli plante environ une fois par semaine pour je-ne-sais-quelle raison. Peut-être une fuite mémoire. Mais j'arrive avant les collègues, il ne savent pas que je la redémarre et pensent que j'ai livré un produit d'une robustesse incommensurable. Donc tout va bien, hein ?
 
-J'ai essayé d'étendre mon territoire à deux autres salles de réunions, mais les liseuses ont été un peu plus récalcitrantes : il s'agissait de modèles particuliers, sur lesquels des expérimentations pervesses avaient déjà eu lieu. Je crois que j'en ai achevé une alors qu'une autre se décharge continuellement. Tout simplement car j'ai utilisé des rallonges USB pour la charger, et il semblerait que la tension en prenne un coup.
+J'ai essayé d'étendre mon territoire à deux autres salles de réunions, mais les liseuses ont été un peu plus récalcitrantes : il s'agissait de modèles particuliers, sur lesquels des expérimentations perverses avaient déjà eu lieu. Je crois que j'en ai achevé une alors qu'une autre se décharge continuellement. Tout simplement car j'ai utilisé des rallonges USB pour la charger, et il semblerait que la tension en prenne un coup.
 On tombe en plein dans les problèmes relous dont je parlais plus haut. Et c'est galère à gérer.
 
 ##Au niveau logiciel
