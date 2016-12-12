@@ -4,6 +4,7 @@ tags:
     - Savoir vivre de dev
     - Agile
     - Bidouillages
+    - Vidéo
 
 ---
 

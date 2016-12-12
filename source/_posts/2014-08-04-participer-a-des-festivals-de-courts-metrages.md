@@ -3,6 +3,7 @@ title: Participer à des festivals de courts-métrages
 categories:
 tags:
     - Courts-métrages
+    - Vidéo
 
 ---
 Retour d’expérience sur les différents festivals que j’ai pu faire (ou pas) en tant que réalisateur et spectateur : comment on postule, comment ça se passe, comment c’est bien.
