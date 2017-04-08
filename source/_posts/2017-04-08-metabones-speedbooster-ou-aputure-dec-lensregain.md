@@ -12,9 +12,9 @@ Le principe de ces deux machins : ce sont des bagues qui viennent se mettre entr
 * rendre votre boitier compatible avec des objectifs d'une autre marque
 * améliorer les capacités de votre objectif : plus courte focale, plus grande ouverture...
 
-Cet article explique pourquoi j'ai choisi la soluton Aputure plutôt que Metabones. Les deux sont au final assez différents. Cet article n'est pas un test comapratif, mais un récapitulatif des raisons expliquant mon choix (je n'ai pas testé de matériel Metabones).
+Cet article explique pourquoi j'ai choisi la soluton Aputure plutôt que Metabones. Les deux sont au final assez différents. Cet article n'est pas un test comparatif, mais un récapitulatif des raisons expliquant mon choix (je n'ai pas testé de matériel Metabones).
 
-Mon boitier est le suivant : disposant d'un Panasonic GH4 (système micro 4/3).
+Mon boitier est le suivant : Panasonic GH4 (système micro 4/3).
 
 <!--more-->
 
