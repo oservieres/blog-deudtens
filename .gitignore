@@ -7,3 +7,5 @@
 /source/components/
 s3.conf
 *.swp
+vendor
+composer.phar
