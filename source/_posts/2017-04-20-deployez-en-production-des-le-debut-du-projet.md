@@ -14,18 +14,18 @@ En bref : quand vous vous lancez dans un nouveau projet (web ou autre), déploye
 
 ## Premier exemple : la transcription en live pour les sourds au Mix-It
 
-L'édition 2017 de la conférence Mix-It disposait d'un écran qui affichait la retranscription en temps réel des paroles du speaker. Le fonctionnement : un logiciel faisait de la reconnaissance vocale et écrivait approximativement ce qui était dit. Ensuite, un opérateur corrigeait en live le texte qui était affiché.
+L'édition 2017 de la conférence Mix-It disposait d'un écran qui affichait la retranscription en temps réel des paroles du speaker.i Ca s'appelait [Scrivobox](http://scribovox.strikingly.com/) Le fonctionnement : un logiciel faisait de la reconnaissance vocale et écrivait approximativement ce qui était dit. Ensuite, un opérateur corrigeait en live le texte qui était affiché.
 
 ![](/images/velotype2.jpg){.img-responsive}
 
-Ça, c'est en théorie. En pratique, l'outil était en bêta, et son utilisation à cet événement était surtout faite pour le tester. Et c'est une super idée, car le truc déconnait à mort ! J'ai été amusé (comme d'autres) de voir à quel point l'outil rencontrait des problèmes, dont certains ne pouvaient être décelables qu'avec ce genre de **test grandeur nature** :
+Ça, c'est en théorie. En pratique, l'outil était en bêta, et son utilisation à cet événement était surtout faite pour le tester. Et c'est une super idée, car le truc a plutôt pas mal déconné ! J'ai été amusé (comme d'autres) de voir à quel point l'outil rencontrait des problèmes, dont certains ne pouvaient être décelables qu'avec ce genre de **test grandeur nature** :
 
 * un problème de scroll empêchait de voir les dernières paroles retranscrites, ce qui donnait une grande latence entre paroles et texte ;
-* la reconnaissance vocale était totalement peaumée dès que le speaker faisait du franglais ;
+* la reconnaissance vocale était totalement paumée dès que le speaker faisait du franglais ;
 * une fenêtre TeamViewer trainait sur l'écran : ça sent le cafouillage à base de partage d'écran qui n'a pas été possible ;
 * entre deux talks, quand les organisateurs discutaient à voix basse entre eux au pupitre, leur conversation inaudible était retranscrite à l'écran ;
 
-Bref, l'outil a été utilisé et montré alors qu'il n'était pas du tout prêt, et je trouve ça extrêmement positif. J'aime à croire que son créateur a appris beaucoup de choses avec cette expérimentation, et qu'il n'aurait pas pu les déceler aussi tôt autrement. D'ailleurs, on voyait l'outil s'améliorer au fur et à mesure des conférences : avant la fin de la journée, le premier problème dont je parlais était réglé.
+Bref, l'outil a été utilisé et montré alors qu'il n'était pas totalement prêt, et je trouve ça extrêmement positif. J'aime à croire que son créateur a appris beaucoup de choses avec cette expérimentation, et qu'il n'aurait pas pu les déceler aussi tôt autrement. D'ailleurs, on voyait l'outil s'améliorer au fur et à mesure des conférences : au final, l'écran avait beaucoup évolué entre le début et la fin de la conf.
 
 ![](/images/velotype1.jpg){.img-responsive}
 
@@ -57,7 +57,7 @@ Ainsi, je me fous pas mal que des gens aient accès au site, de toute façon ils
 Deux raisons pour lesquelles le site est déjà ouvert au grand public :
 
 * Flemme absolue de cacher le site, car c'est difficile à faire sans contraintes fortes.
-* Je peux montrer le site à n'importe qui, n'importe où, sur n'importe quel device, juste en tapant l'adresse dans le navigateur. Car dès que j'ai une idée ou un truc à montrer, je saoule tout le monde avec. hors de question de garder des choses secrètes : personne n'ira vous piquer votre idée, car votre idée, tout le monde s'en fout et peu de gens y croient. Donc autant la pitcher à un maximum de monde pour amasser le plus de retours possible.
+* Je peux montrer le site à n'importe qui, n'importe où, sur n'importe quel support, juste en tapant l'adresse dans le navigateur. Car dès que j'ai une idée ou un truc à montrer, je saoule tout le monde avec. Hors de question de garder des choses secrètes : personne n'ira vous piquer votre idée, car votre idée, tout le monde s'en fout et peu de gens y croient. Donc autant la pitcher à un maximum de monde pour amasser le plus de retours possible.
 
 ## Si on veut vraiment cacher son site
 
@@ -70,4 +70,4 @@ Car après tout, je suis conscient de la particularité de mon cas : on peut avo
 
 ## Le déploiement continu en vue
 
-Déployer son site tôt, c'est s'assurer d'avoir une procédure de déploiement béton, et c'est un premier pas vers le déploiement continu.
+Déployer son site tôt, c'est s'assurer d'avoir une procédure de déploiement béton, et c'est un premier pas vers le déploiement continu. Si vous vous occupez de ce sujet après l'ouverture au public, vous ne rattraperez jamais votre retard, sauf à grand coup de développements coûteux et de plantages de production. Et pendant ce temps là, les vrais bugs que l'on n'avait pas décelés auparavant devront attendre. Il y a quasiment 3 ans, je disais déjà tout ça dans mon billet dédié au [tableau de bord dans l'open space](/un-tableau-de-bord-dans-lopen-space/). Un des rares points sur lesquels je ne change pas d'avis.
