@@ -46,4 +46,16 @@
         {% endif %}
     </article>
 
+    <h2>Commentaires</h2>
+
+    <form method="POST" action="https://api.staticman.net/v2/entry/oservieres/blog-deudtens/comments/">
+      <input name="options[redirect]" type="hidden" value="https://www.deudtens.com">
+      <input name="options[slug]" type="hidden" value="{{ page.url }}">
+      <label>Votre nom : <input name="fields[name]" type="text"></label>
+      <label>Votre E-mail : <input name="fields[email]" type="email"></label>
+      <label>Votre message : <textarea name="fields[message]"></textarea></label>
+
+      <button type="submit">Envoyer</button>
+    </form>
+
 {% endblock %}
