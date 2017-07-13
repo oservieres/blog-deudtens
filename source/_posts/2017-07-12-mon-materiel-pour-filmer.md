@@ -15,23 +15,23 @@ Cet équipement est montré dans l'état actuel : il est différemment arrangé 
 
 ##Caméras
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/gh4.jpg){.img-responsive}
 
 Caméra principale : Panasonic GH4. Assez classique, appareil très réputé pour ses performances vidéo, avec un excellent rapport qualité prix.
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/550d.jpg){.img-responsive}
 
 Caméra secondaire : un bon vieux Canon EOS 550D. Il commence à avoir un certain age, mais il sert très bien pour les angles de vue secondaires "au cas où", attaché à un poteau. Il sert aussi en cas d'urgence absolue, si un problème se manifeste sur le GH4.
 
 ##Objectifs
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/objo-sigma.jpg){.img-responsive}
 
 Je filme principalement avec un Sigma 30mm F/1.4 en ouvrant à fond, pour deux raisons :
 * le [bokey](https://fr.wikipedia.org/wiki/Bokeh) c'est cool ;
 * je suis dans beaucoup de situations dans la pénombre, ce qui nécessite un objectif lumineux.
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/objo-canon.jpg){.img-responsive}
 
 Quand l'occasion se présente, j'utilise aussi un Canon 10-18mm. Grand angle très bourrin, tendance vulgaire. Mais bien utilisé, ça peut faire un joli travelling, un beau panorama. Aussi, sa faible ouverture et sa courte focale rendent la mise au point aisée : une fois faite, je ne la change plus durant le plan.
 
@@ -41,13 +41,13 @@ Enfin, j'ai le joker : l'objectif Canon 18-55mm de base tout moisi mais qui m'a 
 
 ##Bague d'adaptation et Speedbooster
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/lensregain.jpg){.img-responsive}
 
 Pour monter des objectifs Canon sur mon Panasonic, j'utilise la bague [DEC lensregain d'Aputure, dont j'avais déjà parlé dans un précédent billet](/metabones-speedbooster-ou-aputure-dec-lensregain/). Cela me permet de bénéficier d'un cran d'ouverture supplémentaire, d'une focale légérement réduite, et surtout de la manette de commande de mise au point très utile, surtout quand j'utilise le Gimbal (voir ci-dessous).
 
 ##Shoulder rig
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/shoulder_rig.jpg){.img-responsive}
 
 Tout ce bordel est fixé sur un shoulder rig de la marque Neewer un peu trafiqué/scié/démonté/remonté/retourné.
 
@@ -55,7 +55,7 @@ On me dit souvent que le truc qu'on calle sur l'épaule doit probablement aider 
 
 ##Gimbal
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/gimbal.jpg){.img-responsive}
 
 Pour aller plus loin dans la stabilisation en me permettant de courir dans tous les sens tout en gardant une image propre, j'utilise de temps en temps le gimbal Nebula 4200 de Filmpower.
 
@@ -69,7 +69,7 @@ J'ai fixé le Gimbal directement sur le shoulder rig :
 
 ##Moniteur externe
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/monitor.jpg){.img-responsive}
 
 Accessoire important pour éviter les mises au point ratées. Encore la marque Aputure pour ce joujou, le modèle Aputure VS-2 FineHD. Modèle assez réputé pour son prix relativement bas par rapport à toutes les fonctionnalités qu'il propose. Ma fonctionnalité préférée et qui est constamment activée : le focus peaking. C'est la vie, c'est génial. Il y a d'autres aides disponibles, notamment pour la balance des blancs et l'exposition, mais je gère principalement ces paramètres "à la volée" : sur des mariages ou des conférences en mode reportage, pas le temps de niaiser, je fais au mieux quitte à retoucher un peu au montage.
 
@@ -81,7 +81,7 @@ Attention, ce genre d'écran suce de la batterie en continu. J'ai acheté une bo
 
 ##Microphone
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/micro.jpg){.img-responsive}
 
 Mes vidéos sont surtout des "clips", et je suis seul à filmer, je n'ai pas de preneur de son à ma disposition. J'insère de temps en temps des morceaux de discours ou déclarations au milieu, ou bien il m'arrive de filmer parfois un speech en entier, mais ça ne va pas beaucoup plus loin. Ainsi, j'assure le minimum avec un Sennheiser MKE 400. Même pour mes besoins restreints le micro interne de la caméra n'est pas une option.
 
@@ -99,7 +99,7 @@ J'emmène toujours avec moi un trépied photo tout pourri. Il me sert rarement, 
 
 Accessoire indispensable, une demi douzaine de ces trucs :
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/fast-release-clamp.jpg){.img-responsive}
 
 Obligatoire pour bouger rapidement un machin (principalement les caméras mais pas que) d'un point de montage à un autre. J'en abuse dans tous les sens.
 
