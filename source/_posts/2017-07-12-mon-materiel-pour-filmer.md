@@ -103,7 +103,7 @@ Je réfléchis à potentiellement acheter un micro pour réaliser des interviews
 
 ##Les autres trucs
 
-J'emmène toujours avec moi un trépied photo tout pourri. Il me sert rarement, pour parfois poser ma caméra secondaire dans un coin tout au plus. Seul désavantage : c'est un truc en plastique tout moche qui fait vraiment amateur. Je n'ai pas besoin de plus, mais ça ne renvoit pas forcément une image très pro quand d'autres professionnels sont présents. 
+J'emmène toujours avec moi un trépied photo tout pourri. Il me sert rarement, pour parfois poser ma caméra secondaire dans un coin tout au plus. Seul désavantage : c'est un truc en plastique tout moche qui fait vraiment amateur. Je n'ai pas besoin de plus, mais ça ne renvoit pas forcément une image très pro quand d'autres professionnels sont présents.
 
 Accessoire indispensable, une demi douzaine de ces trucs :
 
@@ -116,6 +116,10 @@ Et enfin : du ruban adhésif. On en a toujours besoin et ça fait pro d'en colle
 ##Et au niveau discrétion ?
 
 Tout ce bordel peut paraitre imposant, mais il n'en est rien : je suis un peu plus "remarquable" qu'un photographe, mais peu de gens font attention à moi. Et quand c'est le cas, certains aiment bien jouer avec moi, me faire des grimaces, sortir des vannes, ça donne de très bonnes choses au montage ! Il arrive (certes rarement) que des personnes soient intimidées par la caméra. Ça se voit instantanément dans le viseur. j'essaie alors de ne pas la braquer directement sur eux et de m'éloigner.
+
+On dirait même que mon matériel est moins imposant que le ventre de ma femme :
+
+![](/images/rig/bg.jpg){.img-responsive}
 
 Au passage, je vous conseille de vous méfier des vidéastes assurant une totale discrétion en mode "personne ne se rendra compte que l'événement est filmé" : plus la caméra est petite et cachée, plus l'image est moche, tremblante et floue.
 
