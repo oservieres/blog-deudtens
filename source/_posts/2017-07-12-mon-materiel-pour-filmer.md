@@ -1,17 +1,19 @@
 ---
-title: Mon matériel pour filmer
+title: Mon matériel pour filmer des événements
 tags:
     - Vidéo
 
 ---
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/rig1.jpg){.img-responsive}
 
 On me demande souvent quelle est la caméra/les objectifs/les machins avec lesquels je tourne mes vidéos. Voici la liste détaillée.
 
 <!--more-->
 
-Cet équipement est montré dans l'état actuel : il est différemment arrangé par rapport hier, et il en sera probablement encore autrement demain, selon mes expériences futures. Je l'utilise pour tourner des reportages d'événements (mariages, conférences, séminaires etc.). Ainsi, la priorité est donnée à la rapidité de mise en oeuvre et la mobilité. Je suis plutôt satisfait du résultat, sauf sur un point : c'est foutrement lourd.
+Cet équipement est montré dans l'état actuel : il est différemment arrangé par rapport hier, et il en sera probablement encore autrement demain, selon mes expériences futures. Je l'utilise pour tourner des reportages d'événements (mariages, conférences, séminaires etc.). Ainsi, la priorité est donnée à la rapidité de mise en oeuvre et la mobilité. Je suis plutôt satisfait du résultat, sauf sur un point : c'est plutôt lourd, ça muscle !
+
+![](/images/rig/rig2.jpg){.img-responsive}
 
 ##Caméras
 
@@ -28,6 +30,7 @@ Caméra secondaire : un bon vieux Canon EOS 550D. Il commence à avoir un certai
 ![](/images/rig/objo-sigma.jpg){.img-responsive}
 
 Je filme principalement avec un Sigma 30mm F/1.4 en ouvrant à fond, pour deux raisons :
+
 * le [bokey](https://fr.wikipedia.org/wiki/Bokeh) c'est cool ;
 * je suis dans beaucoup de situations dans la pénombre, ce qui nécessite un objectif lumineux.
 
@@ -53,6 +56,8 @@ Tout ce bordel est fixé sur un shoulder rig de la marque Neewer un peu trafiqu�
 
 On me dit souvent que le truc qu'on calle sur l'épaule doit probablement aider à soutenir le poids de l'engin. Pas vraiment en fait, ça sert surtout à stabiliser l'image : les appareils photo comme le GH4 ont énormément de qualités par rapport aux traditionnelles caméras (prix avant tout, mais aussi taille, poids, polyvalence), mais il y a une contrepartie : ils n'ont pour la plupart pas de stabilisation. Le moindre tremblement des mains est répercuté à l'image, ce qui donne des microsecousses très désagréables à l'oeil humain. Caler l'appareil contre son corps permet d'éliminer ces secousses.
 
+On obtient donc un style d'image "caméra à l'épaule" et pas "caméra au poing", et ça fait beaucoup de différence.
+
 ##Gimbal
 
 ![](/images/rig/gimbal.jpg){.img-responsive}
@@ -63,9 +68,11 @@ Je suis content de l'avoir, j'arrive bien à l'utiliser, mais je ne recommande p
 
 J'ai fixé le Gimbal directement sur le shoulder rig :
 
-![](/images/rig/.jpg){.img-responsive}
+![](/images/rig/rig3.jpg){.img-responsive}
 
-Ça donne quelque chose d'assez lourd, un peu trop encombrant. Mais c'est nécessaire afin de pouvoir passer facilement d'un filmage à l'épaule à un filmage au Gimbal : retirer la caméra, fixer le Gimbal à la place, remettre la caméra sur le Gimbal, et c'est fini. Pas besoin de déplacer l'écran, la manette de mise au point, le micro etc.
+![](/images/rig/rig4.jpg){.img-responsive}
+
+Ça donne quelque chose d'assez lourd, voir un peu trop. Mais c'est nécessaire afin de pouvoir passer facilement d'un filmage à l'épaule à un filmage au Gimbal : retirer la caméra, fixer le Gimbal à la place, remettre la caméra sur le Gimbal, et c'est fini. Pas besoin de déplacer l'écran, la manette de mise au point, le micro etc.
 
 ##Moniteur externe
 
@@ -86,6 +93,7 @@ Attention, ce genre d'écran suce de la batterie en continu. J'ai acheté une bo
 Mes vidéos sont surtout des "clips", et je suis seul à filmer, je n'ai pas de preneur de son à ma disposition. J'insère de temps en temps des morceaux de discours ou déclarations au milieu, ou bien il m'arrive de filmer parfois un speech en entier, mais ça ne va pas beaucoup plus loin. Ainsi, j'assure le minimum avec un Sennheiser MKE 400. Même pour mes besoins restreints le micro interne de la caméra n'est pas une option.
 
 Restent deux sources de bruits parasites que le micro capte :
+
 * le bruit des moteurs du gimbal ;
 * le bruit du moteur de la bague de mise au point d'Aputure.
 
@@ -95,7 +103,7 @@ Je réfléchis à potentiellement acheter un micro pour réaliser des interviews
 
 ##Les autres trucs
 
-J'emmène toujours avec moi un trépied photo tout pourri. Il me sert rarement, pour parfois poser ma caméra secondaire dans un coin tout au plus. Seul désavantage : c'est un truc en plastique tout moche qui fait vraiment amateur. Je n'ai pas besoin de plus, mais ça ne renvoit pas forcément une image très pro quand d'autres professionnels sont présents. Peu importe que ce machin fasse le boulot et que le regard des autres soit injustement basé sur du superficiel, il reste que cela peut déservir l'image que je renvoie. C'est comme les fringues : c'est bien beau de dire que ce n'est que de l'apparence et qu'on peut se pointer en pantacourt claquettes chaussettes au boulot, ça ne change rien à nos qualités. Mais dans les faits, ça change la perception des autres à notre sujet.
+J'emmène toujours avec moi un trépied photo tout pourri. Il me sert rarement, pour parfois poser ma caméra secondaire dans un coin tout au plus. Seul désavantage : c'est un truc en plastique tout moche qui fait vraiment amateur. Je n'ai pas besoin de plus, mais ça ne renvoit pas forcément une image très pro quand d'autres professionnels sont présents. 
 
 Accessoire indispensable, une demi douzaine de ces trucs :
 
@@ -105,6 +113,25 @@ Obligatoire pour bouger rapidement un machin (principalement les caméras mais p
 
 Et enfin : du ruban adhésif. On en a toujours besoin et ça fait pro d'en coller un peu partout pour rien. Ah et il faut appeler ça du "gaffer" pour vraiment avoir l'air de connaître son métier.
 
+##Et au niveau discrétion ?
+
+Tout ce bordel peut paraitre imposant, mais il n'en est rien : je suis un peu plus "remarquable" qu'un photographe, mais peu de gens font attention à moi. Et quand c'est le cas, certains aiment bien jouer avec moi, me faire des grimaces, sortir des vannes, ça donne de très bonnes choses au montage ! Il arrive (certes rarement) que des personnes soient intimidées par la caméra. Ça se voit instantanément dans le viseur. j'essaie alors de ne pas la braquer directement sur eux et de m'éloigner.
+
+Au passage, je vous conseille de vous méfier des vidéastes assurant une totale discrétion en mode "personne ne se rendra compte que l'événement est filmé" : plus la caméra est petite et cachée, plus l'image est moche, tremblante et floue.
+
+##Pas de drone
+
+En tant que gros geek, je pense que je craquerai un jour pour l'achat d'un drone, rien que parce que c'est drôle à manier. Mais en l'état, j'ai une infinité de raisons de ne pas m'en doter :
+
+* Ma marque de fabrique, c'est de me concentrer sur les gens, leurs interactions, leurs émotions. On ne capte rien de tout ça à 50 mètres d'altitude.
+* On peut tout à fait faire un beau plan d'ensemble d'un lieu majestueux sans drone.
+* J'ai déjà réussi plusieurs fois à faire croire à l'utilisation d'un drone en montant ma Gopro sur un stabilisateur lui même fixé au bout d'une perche de 2m.
+* Le prix du drone et de la formation obligatoire feraient monter le prix de ma prestation.
+* Le temps passé à installer le drone, le manier et le ranger, c'est du temps en moins pour vraiment filmer ce qui est intéressant.
+* Il y a des grosses contraintes de sécurité : ce serait dommage de faire tomber le drone sur un invité.
+
+Bref, un drone ça donne des images sympas, ça permet de faire de très beaux plans de transitions, mais dans la mesure où ce n'est pas indispensable et que c'est contraignant à plein de niveaux, je ne recommande pas.
+
 ##Pour plus tard
 
-Pour toujours plus de mobilité, je cherche un bon sac à dos bien optimisé avec possibilité d'accéder aux différents compartiments d'une main s'en l'enlever. Ca sera surement le prochain achat.
+Pour toujours plus de mobilité, je cherche un bon sac à dos bien optimisé avec possibilité d'accéder aux différents compartiments d'une main sans l'enlever. Ça sera surement le prochain achat.

@@ -2,7 +2,7 @@
 # via `site.*`. So for example, {{ site.title }} can be used
 # in a template to get the contents of the `title` key.
 title: Olivier Servières
-subtitle: Developpement web, agilité, cinéma
+subtitle: Developpement, Vidéo, Cinéma
 
 # Insert your disqus shortname
 #disqus:
