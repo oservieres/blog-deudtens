@@ -11,7 +11,7 @@ On me demande souvent quelle est la caméra/les objectifs/les machins avec lesqu
 
 <!--more-->
 
-Cet équipement est montré dans l'état actuel : il est différemment arrangé par rapport hier, et il en sera probablement encore autrement demain, selon mes expériences futures. Je l'utilise pour tourner des reportages d'événements (mariages, conférences, séminaires etc.). Ainsi, la priorité est donnée à la rapidité de mise en oeuvre et la mobilité. Je suis plutôt satisfait du résultat, sauf sur un point : c'est plutôt lourd, ça muscle !
+Cet équipement est montré dans l'état actuel : il est différemment arrangé par rapport à hier, et il en sera probablement encore autrement demain, selon mes expériences futures. Je l'utilise pour tourner des reportages d'événements (mariages, conférences, séminaires etc.). Ainsi, la priorité est donnée à la rapidité de mise en oeuvre et la mobilité. Je suis plutôt satisfait du résultat, sauf sur un point : c'est plutôt lourd, ça muscle !
 
 ![](/images/rig/rig2.jpg){.img-responsive}
 
@@ -31,7 +31,7 @@ Caméra secondaire : un bon vieux Canon EOS 550D. Il commence à avoir un certai
 
 Je filme principalement avec un Sigma 30mm F/1.4 en ouvrant à fond, pour deux raisons :
 
-* le [bokey](https://fr.wikipedia.org/wiki/Bokeh) c'est cool ;
+* le [bokeh](https://fr.wikipedia.org/wiki/Bokeh) c'est cool ;
 * je suis dans beaucoup de situations dans la pénombre, ce qui nécessite un objectif lumineux.
 
 ![](/images/rig/objo-canon.jpg){.img-responsive}
