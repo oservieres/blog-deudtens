@@ -21,7 +21,7 @@ L'outil principal pour mes montages. Je commence par le mauvais côté : le prix
 
 Les features qui me font rester sous Premiere :
 
-* La stabilisation numérique. Même si j'utilise beaucoup de stabilisation "mécanique" au tournage, il reste que les DSLR sont des petites bêtes très instables, qui répercutent à l'image la moindre secousse. Je trouve que le warp stabilizer de premiere fait de très belles choses, en limitant fortement l'effet "gélatine" (image qui se déforme) tant que l'on filme proprement (filmage "au poignet" à proscrire).
+* La stabilisation numérique. Même si j'utilise beaucoup de stabilisation "mécanique" au tournage, il reste que les DSLR sont des petites bêtes très instables, qui répercutent à l'image la moindre secousse. Je trouve que le warp stabilizer de premiere fait de très belles choses, en limitant fortement l'effet "gélatine" (image qui se déforme) tant que l'on filme proprement (filmage "au poignet" à proscrire). Mon petit plaisir coupable : monter un objectif relativement longue focale (30 à 50mm, sur le petit capteur du GH4 c'est long) sur mon Gimbal, courir discrètement autour de mon sujet, et stabiliser le tout numériquement (car la longue focale accentue les tremblements). Ca fait un beau travelling circulaire bien bourrin. Et Premiere se débrouille très bien pour stabiliser les plans sur Gimbal : l'effet est indétectable.
 * La gestion des proxies : plutôt que de
 * La gestion de la colorimétrie : c'est assez nouveau, Premiere propose un workspace dédié aux retouches colorimétriques, qui permet d'aller très vite. Moins précis et puissant qu'une vraie solution dont c'est la spécialité, mais amplement suffisant pour de la vidéo diffusée sur le web.
 * L'intégration avec After Effects, via le dynamic link notamment.
