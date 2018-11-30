@@ -17,8 +17,6 @@ Au moment de ma recherche, cela faisait 5 ans que j'étais chez [TEA, une super 
 
 Et puis je voulais retourner un peu vers un truc que j'avais déjà fait dans le passé : le management. Je voulais trouver un job avec de la technique avant tout, mais aussi une composante "gestion d'équipe". Peu importe la forme, cela pourrait être lead dev, CTO, que sais-je. Il y a autant de sens derrière ces mots qu'il y a de sociétés.
 
-J'ai donc vu pas mal de recruteurs et de boites, pour au final ne pas avoir de coup de coeur. Ce qui m'a poussé au final à avancer un projet de reconversion que je comptais mettre en oeuvre dans quelques années : à partir de juin 2019, je serai [vidéaste sur Lyon](https://www.sso-video.com/) (et le reste de la France) à temps plein. Je ne laisserai pas pour autant tomber le développement que je pratiquerai en freelance. Mais j'ai envie de tenter autre chose, à un moment de ma vie où je ressens le besoin de faire une mini pause avec le monde du développement qui me frustre un peu. D'où cet article : les raisons de ce choix pourraient peut-être inspirer certaines personnes à améliorer leur processus de recrutement. Ne voyez pas cet article comme une suite de lamentations d'un gamin pourri gaté (même si c'est un peu ça), mais comme un retour d'expérience.
-
 #La séduction par la technique
 
 Je crois que le gros dénominateur commun de toutes les descriptions de postes que j'ai eues, c'est la mise en avant des "technos cools" : on a systématiquement essayé de me "vendre" un poste en me parlant avant tout des outils, des langages de programmations, des frameworks ou des problématiques d'infras (CQRS, Microservices...). Et on m'a très peu parlé des boites en elles-mêmes : leurs valeurs, leurs métiers, leurs business models, leurs façons de fonctionner. C'était ça que je voulais savoir pourtant.
@@ -64,6 +62,8 @@ De manière générale, les propositions de salaires que j'ai eues me convenaien
 
 Aussi, je ne me cache plus derrière ma passion : oui j'adore développer, mais je suis là avant tout pour l'oseille, le cash, la thune. Rien à faire que le poste soit génial, si c'est sous payé, ça sera sans moi. Là aussi je suis à l'opposée de mon début de carrière, où j'avais accepté un poste payé une misère car je savais que j'allais beaucoup apprendre.
 
+Je n'ai plus trop vécu l'ennuyueux 
+
 #Le CEO baladé de toutes parts
 
 Je termine avec un cas concret qui m'a fait mal au coeur. Une plateforme de réservation en ligne qui a quelques années. Elle tourne, il y a des commandes. Par contre il n'y a plus d'équipe technique : elle a été construite dans la douleur par une succession de prestataires, stagiaires, puis un développeur en interne consciencieux et doué qui a fait tenir le tout autant qu'il pouvait. Triste, mais plutôt classique.
@@ -76,4 +76,4 @@ Si jamais l'entreprise dont je parle se reconnait ici, je lui souhaite le meille
 
 #Et donc, je me casse
 
-Comme dit en intro, à la suite de cette session de recherches, je n'ai pas trouvé d'offre satisfaisante. J'avoue : j'ai été sacrément relou et sélectif dans mes critères. Mais cela a suffit à me motiver pour partir dans cette semi-reconversion. Je continuerai à coder évidemment, et à surveiller le monde de la tech. Mais pour l'instant, une petite pause me fera du bien !
+J'ai donc vu pas mal de recruteurs et de boites, pour au final ne pas avoir de coup de coeur. Ce qui m'a poussé au final à avancer un projet de reconversion que je comptais mettre en oeuvre dans quelques années : à partir de juin 2019, je serai [vidéaste sur Lyon](https://www.sso-video.com/) (et le reste de la France) à temps plein. Je ne laisserai pas pour autant tomber le développement que je pratiquerai en freelance. Mais j'ai envie de tenter autre chose, à un moment de ma vie où je ressens le besoin de faire une mini pause avec le monde du développement qui me frustre un peu. D'où cet article : les raisons de ce choix pourraient peut-être inspirer certaines personnes à améliorer leur processus de recrutement. Ne voyez pas cet article comme une suite de lamentations d'un gamin pourri gaté (même si c'est un peu ça), mais comme un retour d'expérience. Voici un vrac quelques idées :
