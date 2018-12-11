@@ -21,11 +21,11 @@ Et puis je voulais retourner un peu vers un truc que j'avais déjà fait dans le
 
 Je crois que le gros dénominateur commun de toutes les descriptions de postes que j'ai eues, c'est la mise en avant des "technos cools" : on a systématiquement essayé de me "vendre" un poste en me parlant avant tout des outils, des langages de programmations, des frameworks ou des problématiques d'infras (CQRS, Microservices...). Et on m'a très peu parlé des boites en elles-mêmes : leurs valeurs, leurs métiers, leurs business models, leurs façons de fonctionner. C'était ça que je voulais savoir pourtant.
 
-Savoir avec qui je vais travailler est la chose la plus importante pour moi. Surtout que je viens d'une boite qui évolue dans un domaine super cool et plutôt bien au niveau éthique : le livre numérique.
+Savoir avec qui je vais travailler est la chose la plus importante pour moi. Surtout que je viens d'une boite qui évolue dans un domaine super cool et plutôt bien au niveau éthique : le livre numérique. J'ai donc certaines attentes à ce sujet.
 
-J'ai un profil assez généraliste : je peux toucher à tout, je m'intéresse à tous les domaines, je peux discuter avec n'importe quel corps de métier, technique ou pas. Par contre je ne suis spécialiste en rien. Et la technique, en soi, je m'en fous un peu : ce qui me motive, c'est de répondre à un besoin correctement, et tant pis si la solution technique à apporter est inintéressante à mettre en place, tant qu'elle est appropriée. Donc quand on m'explique que c'est trop cool de travailler dans telle boite car on essaie régulièrement des nouveaux SGBD et chacun peut coder avec le langage qu'il veut, au mieux ça m'indiffère, au pire ça m'effraie.
+J'ai un profil assez généraliste : je peux toucher à tout, je m'intéresse à tous les domaines, je peux discuter avec n'importe quel corps de métier, technique ou pas. Par contre je ne suis spécialiste en rien. Et la technique, en soi, je m'en fous un peu : ce qui me motive, c'est de répondre à un besoin correctement, et tant pis si la solution technique à apporter est inintéressante à mettre en place, tant qu'elle est appropriée. Donc quand on m'explique que c'est trop cool de travailler dans telle boite car on essaie régulièrement des nouveaux SGBD et que chacun peut coder avec le langage qu'il veut, au mieux ça m'indiffère, au pire ça m'effraie.
 
-J'ai carrément eu une boite qui s'excusait d'avoir recours à Wordpress parfois pour certains projets, en mode "désolé on sait que c'est chiant et que le code est moche mais c'est adapté à nos besoins". Il ne faut pas être désolé quand on utilise le bon outil : si Wordpress fait le boulot, alors allons-y. Et puis son code n'est pas moche. Il est comme Forrest Gump : différent.
+J'ai carrément eu une boite qui s'excusait d'avoir recours à Wordpress parfois pour certains projets, en mode "désolé on sait que c'est chiant et que le code est moche mais c'est adapté à nos besoins". Il ne faut pas être désolé quand on utilise le bon outil : si Wordpress fait le boulot, alors allons-y. Et puis son code n'est pas moche. Il est comme Forrest Gump : il est différent.
 
 #Le challenge
 
@@ -35,7 +35,7 @@ Un terme qui ressort souvent : le poste qui représente "un vrai challenge techn
 
 Point positif : je n'ai trouvé aucune trace de "on a un babyfoot !", "on a une Nintendo Wii !" et autres "On a une table de ping pong !". Aucune entreprise n'a avancé ces conneries en argument de vente. Si mon expérience est significative, alors on a fait un petit pas en avant sur le sujet. Maintenant, personnellement, j'en demande encore plus : je veux une entreprise qui me dise "tu viens chez nous, tu bosses à fond pendant tes 7-8 heures de présence, et tu te casses t'occuper de ta famille, point. De temps en temps on ira boire des coups, mais ça sera tout.". C'est à peu près l'opposée du discours que j'aimais entendre quand je sortais d'école il y a 10 ans.
 
-J'ai annoncé à certains recruteurs que j'étais à 80%. Mercredi off pour m'occuper de ma fille. Mini-panique dans leur réaction, et la petite question posée avec une voix tremblotante : "mais... euh... vous comptez continuer ?". Les recruteuses par contre étaient beaucoup plus bienveillantes. Allez savoir pourquoi...
+J'ai annoncé à certains recruteurs que j'étais à 80%. Mercredi off pour m'occuper de ma fille. Mini-panique dans leur réaction, et la petite question posée avec une voix tremblotante : "mais... vous comptez continuer ?". Les recruteuses par contre étaient beaucoup plus bienveillantes. Allez savoir pourquoi...
 
 #Equipes jeunes
 
@@ -43,13 +43,15 @@ Un argument que j'ai encore un peu trop entendu : "On a une équipe jeune et dyn
 
 #Le télétravail
 
-Au cas où vous l'auriez pas déjà vu, je suis du genre un peu relou : j'habite en périphérie de Lyon, me rendre dans le centre pour bosser est assez compliqué. Et puis j'ai un léger handicap physique qui rend les trajets douloureux. Mais ça tombe bien, je suis un adepte du télétravail, qui me comble de joie et me rend très productif. Du genre beaucoup plus productif qu'en open space. Seulement, c'est la misère de ce côté là : le télétravail, même partiel, est très loin de rentrer dans les moeurs.
+C'est la dèche. Trop peu de boites le proposent, même partiellement. Et quand elles le proposent, on a l'impression qu'elles nous font une immense faveur. Les managers ne se rendent pas compte de la valeur que peut apporter le télétravail, aussi bien en termes d'organisation que de bien-être et donc productivité des salariés.
+
+La grande force du télétravail, c'est qu'il permet de montrer les problèmes d'organisation d'une équipe. Mais cela est vu comme un problème au lieu d'une opportunité de s'améliorer.
 
 #Les pratiques douteuses de certains recruteurs
 
 Je dois constamment être en train de dire aux recruteurs de ne pas parler de moi aux clients finaux. C'est abérrant. Plusieurs fois on m'a mis devant le fait accompli en mode "j'ai montré votre CV à mon client, vous l'intéressez", alors que j'avais à peine échangé un mail de premier contact avec le recruteur.
 
-Je suis devenu vers de rage quand quelqu'un a carrément envoyé mon CV à une boite alors que je lui avais explicitement dit que j'étais déjà en contact avec elle via un autre recruteur.
+Je suis devenu vers de rage quand quelqu'un a carrément envoyé mon CV à une boite alors que je lui avais explicitement dit que j'étais déjà en contact avec elle via un autre recruteur. A chaque recherche d'emploi que je fais, j'ai au moins un recruteur qui me met dans l'embarras face à une entreprise. C'est n'importe quoi.
 
 Je précise quand même que tous les recruteurs ne sont pas à l'image que l'on se fait de ce métier. [Il y en a des très bons](http://www.recrut-info.com/).
 
@@ -78,4 +80,8 @@ Si jamais l'entreprise dont je parle se reconnait ici, je lui souhaite le meille
 
 J'ai donc vu pas mal de recruteurs et de boites, pour au final ne pas avoir de coup de coeur. Ce qui m'a poussé au final à avancer un projet de reconversion que je comptais mettre en oeuvre dans quelques années : à partir de juin 2019, je serai [vidéaste sur Lyon](https://www.sso-video.com/) (et le reste de la France) à temps plein.
 
-Je ne laisserai pas pour autant tomber le développement que je pratiquerai en freelance. Mais j'ai envie de tenter autre chose, à un moment de ma vie où je ressens le besoin de faire une mini pause avec le monde du développement qui me frustre un peu. D'où cet article : les raisons de ce choix pourraient peut-être inspirer certaines personnes à améliorer leur processus de recrutement. Ne voyez pas cet article comme une suite de lamentations d'un gamin pourri gaté (même si c'est un peu ça), mais comme un retour d'expérience. Voici un vrac quelques idées, des choses que j'apprécie quand :
+Je ne laisserai pas pour autant tomber le développement que je pratiquerai en freelance. Mais j'ai envie de tenter autre chose, à un moment de ma vie où je ressens le besoin de faire une mini pause avec le monde du développement qui me frustre un peu. D'où cet article : les raisons de ce choix pourraient peut-être inspirer certaines personnes à améliorer leur processus de recrutement. Ne voyez pas cet article comme une suite de lamentations d'un gamin pourri gaté (même si c'est un peu ça), mais comme un retour d'expérience. Voici un vrac quelques idées, des choses que j'ai appréciées ou que j'apprécierais :
+* Parler de la boite avant tout, des valeurs, da la "big picture".
+* S'intéresser au télétravail. On est dans le futur maintenant, on a tous le soutils pour, notamment dans notre secteur. Oui OK tout le monde n'est pas fait pour. Mais il faut s'y intéresser.
+* Recruter des développeurs seniors.
+* Etre réactif lorsqu'une candidature arrive.
