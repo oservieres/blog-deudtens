@@ -68,19 +68,18 @@ Je n'ai plus trop vécu l'ennuyueuse annonce du salaire à la fin des 3 sessions
 
 #Le CEO baladé de toutes parts
 
-Je termine avec un cas concret qui m'a fait mal au coeur. Une plateforme de réservation en ligne qui a quelques années. Elle tourne, il y a des commandes. Par contre il n'y a plus d'équipe technique : elle a été construite dans la douleur par une succession de prestataires, stagiaires, puis un développeur en interne consciencieux et doué qui a fait tenir le tout autant qu'il pouvait. Triste, mais plutôt classique.
+Un cas concret qui m'a fait mal au coeur. Une plateforme de réservation en ligne qui a quelques années. Elle tourne, il y a des commandes. Par contre il n'y a plus d'équipe technique : elle a été construite dans la douleur par une succession de prestataires, stagiaires, puis un développeur en interne consciencieux et doué qui a fait tenir le tout autant qu'il pouvait. Triste, mais plutôt classique.
 
-Le CEO en est à un stade où il reçoit plein de conseils contradictoires de toutes parts. Les candidats sont effrayés à l'idée de reprendre le code legacy. Les sociétés de service consultées sur le projet font de la merde. En particulier une qui a suggéré une réécriture from scratch. Elle a été commencée et n'a jamais vu le jour, quelle surprise.
+La boite se fait balader entre différents prestas qui font n'importe quoi à chaque fois. Chaque société de service va lui donner un son de cloche différent sur ce qu'il faut faire, avec évidemment le fameux "il faut tout réécrire" qui a mené à une refonte n'ayant jamais abouti.
 
-Mais le pire, c'est le conseil qu'a donné une autre société de service : "pour résoudre les problèmes de lenteur de la plateforme, il faut tout refaire en microservices". Je n'ai plus les volumétries en tête, mais je me souviens que c'était très petit, de l'ordre de quelques centaines de commandes par jour au maximum. Quand on n'arrive pas à tenir ce genre de faible volume, ce ne sont pas les microservices la solution, le problème est ailleurs. Surtout, on m'a expliqué que ces lenteurs arrivaient occasionnellement dans la journée, à intervalles réguliers. Il y a fort à parier qu'il y a une tâche programmée qui tourne et qui pompe des ressources. Un batch d'export, un script d'indexation, que sais-je. Et il y a des consultants payés pour proposer du microservice là dessus. C'est putain d'irresponsable et ça m'énerve.
-
-Si jamais l'entreprise dont je parle se reconnait ici, je lui souhaite le meilleur. Le pire, c'est que je pense que mon entretien avec le CEO n'a pas du tout du l'aider : après les précédentes boites l'ayant mal conseillé, j'arrivais avec un nouveau son de cloche. Il y a de quoi se sentir perdu.
+La palme revient à ceux qui leur ont mis dans la tête de régler leurs problèmes de lenteurs avec des microservices. Non seulement ça ne va pas aider, mais surtout, leur plateforme se comportait mal alors qu'elle n'avait que quelques milliers d'utilisateurs uniques par jour. Et à certaines heures de la journée seulement. Bref, il y avait un script d'indexation mal foutu qui monopilsait les ressources. Et des malades ont proposé des microservices en guise de solution.
 
 #Et donc, je me casse
 
 J'ai donc vu pas mal de recruteurs et de boites, pour au final ne pas avoir de coup de coeur. Ce qui m'a poussé au final à avancer un projet de reconversion que je comptais mettre en oeuvre dans quelques années : à partir de juin 2019, je serai [vidéaste sur Lyon](https://www.sso-video.com/) (et le reste de la France) à temps plein.
 
 Je ne laisserai pas pour autant tomber le développement que je pratiquerai en freelance. Mais j'ai envie de tenter autre chose, à un moment de ma vie où je ressens le besoin de faire une mini pause avec le monde du développement qui me frustre un peu. D'où cet article : les raisons de ce choix pourraient peut-être inspirer certaines personnes à améliorer leur processus de recrutement. Ne voyez pas cet article comme une suite de lamentations d'un gamin pourri gaté (même si c'est un peu ça), mais comme un retour d'expérience. Voici un vrac quelques idées, des choses que j'ai appréciées ou que j'apprécierais :
+
 * Parler de la boite avant tout, des valeurs, da la "big picture".
 * S'intéresser au télétravail. On est dans le futur maintenant, on a tous le soutils pour, notamment dans notre secteur. Oui OK tout le monde n'est pas fait pour. Mais il faut s'y intéresser.
 * Recruter des développeurs seniors.
