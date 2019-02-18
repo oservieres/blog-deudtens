@@ -51,20 +51,21 @@ La grande force du télétravail, c'est qu'il permet de montrer les problèmes d
 
 Je dois constamment être en train de dire aux recruteurs de ne pas parler de moi aux clients finaux. C'est abérrant. Plusieurs fois on m'a mis devant le fait accompli en mode "j'ai montré votre CV à mon client, vous l'intéressez", alors que j'avais à peine échangé un mail de premier contact avec le recruteur.
 
-Je suis devenu vers de rage quand quelqu'un a carrément envoyé mon CV à une boite alors que je lui avais explicitement dit que j'étais déjà en contact avec elle via un autre recruteur. A chaque recherche d'emploi que je fais, j'ai au moins un recruteur qui me met dans l'embarras face à une entreprise. C'est n'importe quoi.
+Je suis devenu vert de rage quand quelqu'un a carrément envoyé mon CV à une boite alors que je lui avais explicitement dit que j'étais déjà en contact avec elle via un autre recruteur. A chaque recherche d'emploi que je fais, j'ai au moins un recruteur qui me met dans l'embarras face à une entreprise. C'est n'importe quoi.
 
 Je précise quand même que tous les recruteurs ne sont pas à l'image que l'on se fait de ce métier. [Il y en a des très bons](http://www.recrut-info.com/).
 
 ###Le salaire
 
 De manière générale, les propositions de salaires que j'ai eues me convenaient. Je suis tombé quand même sur quelques pépites :
+
 * Ok donc actuellement vous êtes payé XXX €. Et à tout hasard, vous seriez prêt à baisser un petit peu votre salaire pour aller ailleurs ?
 * Alors oui certes, cette société n'embauche qu'à 1000 € annuels brut de plus que votre emploi actuel, mais du coup vous passeriez chef d'équipe avec 5 personnes à manager, ça peut être motivant non ?
 * Au niveau rémunération on est à X €, avec comme avantages les tickets restos, la mutuelle, la moitié du transport en commun payé, les congés payés.
 
 Aussi, je ne me cache plus derrière ma passion : oui j'adore développer, mais je suis là avant tout pour l'oseille, le cash, la thune. Rien à faire que le poste soit génial, si c'est sous payé, ça sera sans moi. Là aussi je suis à l'opposée de mon début de carrière, où j'avais accepté un poste payé une misère car je savais que j'allais beaucoup apprendre.
 
-Je n'ai plus trop vécu l'ennuyueuse annonce du salaire à la fin des 3 sessions d'entretiens, tout ça pour se rendre compte que ça ne colle pas du tout. Le sujet est toujours venu assez vite. Aussi, je ne suis pas allé très loin avec les boites qui restaient trop vagues sur le sujet.
+Je n'ai plus trop vécu l'ennuyeuse annonce du salaire à la fin des 3 sessions d'entretiens, tout ça pour se rendre compte que ça ne colle pas du tout. Le sujet est toujours venu assez vite. Aussi, je ne suis pas allé très loin avec les boites qui restaient trop vagues sur le sujet.
 
 ###Le CEO baladé de toutes parts
 
@@ -84,5 +85,4 @@ Je ne laisserai pas pour autant tomber le développement que je pratiquerai en f
 * S'intéresser au télétravail. On est dans le futur maintenant, on a tous le soutils pour, notamment dans notre secteur. Oui OK tout le monde n'est pas fait pour. Mais il faut s'y intéresser.
 * Recruter des développeurs seniors.
 * Etre réactif lorsqu'une candidature arrive.
-
 
